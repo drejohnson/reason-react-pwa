@@ -1,0 +1,33 @@
+@custom-media --viewport-small (width >= 36rem);
+@custom-media --viewport-medium (width >= 48rem);
+@custom-media --viewport-large(width >= 62rem);
+@custom-media --viewport-xlarge(width >= 75rem);
+@custom-selector :--heading h1, h2, h3, h4, h5, h6;
+
+:root {
+  --mainColor: #12345678;
+}
+
+body {
+  color: var(--mainColor);
+}
+
+:--heading {
+  @media (--viewport-medium) {
+    margin: 0;
+  }
+}
+
+a {
+  color: rebeccapurple;
+  padding: 0 6px;
+  cursor: pointer;
+
+  &:hover {
+    color: color-mod(var(--mainColor) alpha(80%));
+  }
+}
+
+button {
+  margin: 0 0.5rem;
+}

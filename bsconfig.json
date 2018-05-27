@@ -1,0 +1,28 @@
+{
+  "name": "react-template",
+  "reason": {
+    "react-jsx": 2
+  },
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "package-specs": [
+    {
+      "module": "es6-global",
+      "in-source": true
+    }
+  ],
+  "suffix": ".bs.js",
+  "namespace": true,
+  "bs-dependencies": [
+    "reason-react",
+    "reason-loadable",
+    "reason-reroute",
+    "bs-dynamic-import"
+  ],
+  "refmt": 3,
+  "warnings": {
+    "error": "+5"
+  }
+}
