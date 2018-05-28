@@ -34,15 +34,21 @@ module Type = {
 
 [@bs.deriving abstract]
 type jsProps = {
+  tag: Js.nullable(string),
   use: Js.nullable(string),
+  theme: Js.nullable(string),
+  style: Js.nullable(ReactDOMRe.Style.t),
 };
 [@bs.module "rmwc/Typography"]
 external reactClass : ReasonReact.reactClass = "Typography";
-let make = (~use=?, children) =>
+let make = (~tag=?, ~use=?, ~theme=?, ~style=?, children) =>
 ReasonReact.wrapJsForReason(
   ~reactClass,
   ~props=jsProps(
-    ~use= use |. optionMap(Type.to_string) |. fromOption
+    ~tag= tag |. fromOption,
+    ~use= use |. optionMap(Type.to_string) |. fromOption,
+    ~theme= theme |. fromOption,
+    ~style= style |. fromOption,
   ),
   children,
 );
