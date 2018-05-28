@@ -1,7 +1,5 @@
 open Utils;
 
-open MaterialWebComponents;
-
 type state = {drawerOpen: bool};
 
 type action =
@@ -20,50 +18,50 @@ let make = (~name, _children) => {
     },
   render: ({state, send}) =>
     <Fragment>
-      <TopAppBar fixed=true onNav=((_) => send(ToggleDrawer))>
-        <TopAppBarRow>
-          <TopAppBarSection alignStart=true>
-            <TopAppBarNavigationIcon use="menu" />
-            <TopAppBarTitle tag="h1">
+      <Rmwc.TopAppBar fixed=true onNav=((_) => send(ToggleDrawer))>
+        <Rmwc.TopAppBarRow>
+          <Rmwc.TopAppBarSection alignStart=true>
+            <Rmwc.TopAppBarNavigationIcon use="menu" />
+            <Rmwc.TopAppBarTitle tag="h1">
               ("Hello " ++ name |> string_)
-            </TopAppBarTitle>
-          </TopAppBarSection>
-          <TopAppBarSection alignEnd=true>
-            <TopAppBarActionItem
+            </Rmwc.TopAppBarTitle>
+          </Rmwc.TopAppBarSection>
+          <Rmwc.TopAppBarSection alignEnd=true>
+            <Rmwc.TopAppBarActionItem
               tag="a"
               href="https://reasonml.github.io/reason-react/"
               use="favorite"
             />
-          </TopAppBarSection>
-        </TopAppBarRow>
-      </TopAppBar>
+          </Rmwc.TopAppBarSection>
+        </Rmwc.TopAppBarRow>
+      </Rmwc.TopAppBar>
       <main role="main" style=(ReactDOMRe.Style.make(~paddingTop="64px", ()))>
-        <Grid> <GridCell span=12> <Counter /> </GridCell> </Grid>
-        <Grid>
-          <GridCell tablet=6 desktop=4>
+        <Rmwc.Grid> <Rmwc.GridCell span=12> <Counter /> </Rmwc.GridCell> </Rmwc.Grid>
+        <Rmwc.Grid>
+          <Rmwc.GridCell tablet=6 desktop=4>
             ("Grid Cell 1" |> Utils.string_)
-          </GridCell>
-          <GridCell tablet=6 desktop=4>
+          </Rmwc.GridCell>
+          <Rmwc.GridCell tablet=6 desktop=4>
             ("Grid Cell 2" |> Utils.string_)
-          </GridCell>
-          <GridCell desktop=4> ("Grid Cell 3" |> Utils.string_) </GridCell>
-        </Grid>
-        <Grid>
-          <GridCell>
+          </Rmwc.GridCell>
+          <Rmwc.GridCell desktop=4> ("Grid Cell 3" |> Utils.string_) </Rmwc.GridCell>
+        </Rmwc.Grid>
+        <Rmwc.Grid>
+          <Rmwc.GridCell>
             <nav>
               <Router.Link route=Home>
-                <Typography use=Button> ("Home" |> Utils.string_) </Typography>
+                <Rmwc.Typography use=Button> ("Home" |> Utils.string_) </Rmwc.Typography>
               </Router.Link>
               <Router.Link route=About>
-                <Typography use=Button>
+                <Rmwc.Typography use=Button>
                   ("About" |> Utils.string_)
-                </Typography>
+                </Rmwc.Typography>
               </Router.Link>
             </nav>
-          </GridCell>
-        </Grid>
-        <Grid>
-          <GridCell>
+          </Rmwc.GridCell>
+        </Rmwc.Grid>
+        <Rmwc.Grid>
+          <Rmwc.GridCell>
             <Router.Container>
               ...(
                    (~currentRoute) =>
@@ -74,24 +72,24 @@ let make = (~name, _children) => {
                      }
                  )
             </Router.Container>
-          </GridCell>
-        </Grid>
+          </Rmwc.GridCell>
+        </Rmwc.Grid>
       </main>
-      <Drawer
+      <Rmwc.Drawer
         temporary=true
         open_=state.drawerOpen
         onClose=((_) => send(CloseDrawer))>
-        <DrawerContent>
-          <ListItem>
-            <ListItemText> ("Item 1" |> Utils.string_) </ListItemText>
-          </ListItem>
-          <ListItem>
-            <ListItemText> ("Item 2" |> Utils.string_) </ListItemText>
-          </ListItem>
-          <ListItem>
-            <ListItemText> ("Item 3" |> Utils.string_) </ListItemText>
-          </ListItem>
-        </DrawerContent>
-      </Drawer>
+        <Rmwc.DrawerContent>
+          <Rmwc.ListItem>
+            <Rmwc.ListItemText> ("Item 1" |> Utils.string_) </Rmwc.ListItemText>
+          </Rmwc.ListItem>
+          <Rmwc.ListItem>
+            <Rmwc.ListItemText> ("Item 2" |> Utils.string_) </Rmwc.ListItemText>
+          </Rmwc.ListItem>
+          <Rmwc.ListItem>
+            <Rmwc.ListItemText> ("Item 3" |> Utils.string_) </Rmwc.ListItemText>
+          </Rmwc.ListItem>
+        </Rmwc.DrawerContent>
+      </Rmwc.Drawer>
     </Fragment>,
 };

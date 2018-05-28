@@ -1,5 +1,3 @@
-open MaterialWebComponents;
-
 let component = ReasonReact.statelessComponent("About");
 
 let make = _children => {
@@ -14,9 +12,9 @@ let make = _children => {
         />
       </ReactHelmet>
       <section>
-        <Typography use=Headline1>
+        <Rmwc.Typography use=Headline2>
           ("About component" |> Utils.string_)
-        </Typography>
+        </Rmwc.Typography>
       </section>
     </Fragment>,
 };

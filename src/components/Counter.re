@@ -1,7 +1,5 @@
 open Utils;
 
-open MaterialWebComponents;
-
 type state = {count: int};
 
 type action =
@@ -21,13 +19,13 @@ let make = _children => {
   render: ({state, send}) =>
     <div>
       <h1> (string_of_int(state.count) |> string_) </h1>
-      <Button outlined=true onClick=((_) => send(Increase))>
-        <ButtonIcon use="add" />
+      <Rmwc.Button outlined=true onClick=((_) => send(Increase))>
+        <Rmwc.ButtonIcon use="add" />
         ("Increment" |> string_)
-      </Button>
-      <Button outlined=true onClick=((_) => send(Decrease))>
-        <ButtonIcon use="remove" />
+      </Rmwc.Button>
+      <Rmwc.Button outlined=true onClick=((_) => send(Decrease))>
+        <Rmwc.ButtonIcon use="remove" />
         ("Decrement" |> string_)
-      </Button>
+      </Rmwc.Button>
     </div>,
 };

@@ -11,6 +11,10 @@ let make = _children => {
           content="Reason lets you write simple, fast and quality type safe code while leveraging both the JavaScript & OCaml ecosystems."
         />
       </ReactHelmet>
-      <section> <h1> ("NotFound component" |> Utils.string_) </h1> </section>
+      <section> 
+        <Rmwc.Typography use=Headline2>
+          ("Not Fount component" |> Utils.string_)
+        </Rmwc.Typography>
+      </section>
     </Fragment>,
 };
