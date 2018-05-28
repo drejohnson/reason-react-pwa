@@ -9,20 +9,15 @@ type jsProps = {
 };
 [@bs.module "rmwc/List"]
 external reactClass : ReasonReact.reactClass = "SimpleListItem";
-let make = (
-  ~text=?,
-  ~secondaryText=?,
-  ~graphic=?,
-  ~meta=?, 
-  children
-) =>
-ReasonReact.wrapJsForReason(
-  ~reactClass,
-  ~props=jsProps(
-    ~text= text |. fromOption,
-    ~secondaryText= secondaryText |. fromOption,
-    ~graphic= graphic |. fromOption,
-    ~meta= meta |. fromOption,
-  ),
-  children,
-);
+let make = (~text=?, ~secondaryText=?, ~graphic=?, ~meta=?, children) =>
+  ReasonReact.wrapJsForReason(
+    ~reactClass,
+    ~props=
+      jsProps(
+        ~text=text |. fromOption,
+        ~secondaryText=secondaryText |. fromOption,
+        ~graphic=graphic |. fromOption,
+        ~meta=meta |. fromOption,
+      ),
+    children,
+  );

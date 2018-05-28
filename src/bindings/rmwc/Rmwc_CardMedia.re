@@ -8,11 +8,12 @@ type jsProps = {
 [@bs.module "rmwc/Card"]
 external reactClass : ReasonReact.reactClass = "CardMedia";
 let make = (~square=?, ~sixteenByNine=?, children) =>
-ReasonReact.wrapJsForReason(
-  ~reactClass,
-  ~props=jsProps(
-    ~square= square |. fromOption,
-    ~sixteenByNine= sixteenByNine |. fromOption,
-  ),
-  children,
-);
+  ReasonReact.wrapJsForReason(
+    ~reactClass,
+    ~props=
+      jsProps(
+        ~square=square |. fromOption,
+        ~sixteenByNine=sixteenByNine |. fromOption,
+      ),
+    children,
+  );

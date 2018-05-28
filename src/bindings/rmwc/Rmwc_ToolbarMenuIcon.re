@@ -8,17 +8,9 @@ type jsProps = {
 
 [@bs.module "rmwc/Toolbar"]
 external reactClass : ReasonReact.reactClass = "ToolbarMenuIcon";
-let make =
-    (
-      ~use=?,
-      ~onClick=?,
-      children,
-    ) => 
+let make = (~use=?, ~onClick=?, children) =>
   ReasonReact.wrapJsForReason(
     ~reactClass,
-    ~props=jsProps(
-      ~use= use |. fromOption,
-      ~onClick= onClick |. fromOption,
-    ),
+    ~props=jsProps(~use=use |. fromOption, ~onClick=onClick |. fromOption),
     children,
   );

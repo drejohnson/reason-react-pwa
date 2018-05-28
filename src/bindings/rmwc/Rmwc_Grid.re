@@ -14,14 +14,14 @@ type jsProps = {
   align: Js.nullable(Align.t),
 };
 
-[@bs.module "rmwc/Grid"]
-external reactClass : ReasonReact.reactClass = "Grid";
-let make = (~fixedColumnWidth=?, ~align=?,  children) =>
-ReasonReact.wrapJsForReason(
-  ~reactClass,
-  ~props=jsProps(
-    ~fixedColumnWidth= fixedColumnWidth |. Js.Nullable.fromOption,
-    ~align= align |. Js.Nullable.fromOption
-  ),
-  children,
-);
+[@bs.module "rmwc/Grid"] external reactClass : ReasonReact.reactClass = "Grid";
+let make = (~fixedColumnWidth=?, ~align=?, children) =>
+  ReasonReact.wrapJsForReason(
+    ~reactClass,
+    ~props=
+      jsProps(
+        ~fixedColumnWidth=fixedColumnWidth |. Js.Nullable.fromOption,
+        ~align=align |. Js.Nullable.fromOption,
+      ),
+    children,
+  );

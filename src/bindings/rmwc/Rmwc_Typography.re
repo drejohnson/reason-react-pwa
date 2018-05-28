@@ -42,13 +42,14 @@ type jsProps = {
 [@bs.module "rmwc/Typography"]
 external reactClass : ReasonReact.reactClass = "Typography";
 let make = (~tag=?, ~use=?, ~theme=?, ~style=?, children) =>
-ReasonReact.wrapJsForReason(
-  ~reactClass,
-  ~props=jsProps(
-    ~tag= tag |. fromOption,
-    ~use= use |. optionMap(Type.to_string) |. fromOption,
-    ~theme= theme |. fromOption,
-    ~style= style |. fromOption,
-  ),
-  children,
-);
+  ReasonReact.wrapJsForReason(
+    ~reactClass,
+    ~props=
+      jsProps(
+        ~tag=tag |. fromOption,
+        ~use=use |. optionMap(Type.to_string) |. fromOption,
+        ~theme=theme |. fromOption,
+        ~style=style |. fromOption,
+      ),
+    children,
+  );

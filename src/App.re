@@ -18,7 +18,7 @@ let make = (~name, _children) => {
     },
   render: ({state, send}) =>
     <Fragment>
-      <Rmwc.TopAppBar fixed=true onNav=((_) => send(ToggleDrawer))>
+      <Rmwc.TopAppBar fixed=true onNav=(_ => send(ToggleDrawer))>
         <Rmwc.TopAppBarRow>
           <Rmwc.TopAppBarSection alignStart=true>
             <Rmwc.TopAppBarNavigationIcon use="menu" />
@@ -40,7 +40,9 @@ let make = (~name, _children) => {
           <Rmwc.GridCell>
             <nav>
               <Router.Link route=Home>
-                <Rmwc.Typography use=Button> ("Home" |> Utils.string_) </Rmwc.Typography>
+                <Rmwc.Typography use=Button>
+                  ("Home" |> Utils.string_)
+                </Rmwc.Typography>
               </Router.Link>
               <Router.Link route=About>
                 <Rmwc.Typography use=Button>
@@ -52,28 +54,34 @@ let make = (~name, _children) => {
         </Rmwc.Grid>
         <Router.Container>
           ...(
-                (~currentRoute) =>
-                  switch (currentRoute) {
-                  | Home => <LazyHome />
-                  | About => <LazyAbout />
-                  | _ => <LazyNotFound />
-                  }
-              )
+               (~currentRoute) =>
+                 switch (currentRoute) {
+                 | Home => <LazyHome />
+                 | About => <LazyAbout />
+                 | _ => <LazyNotFound />
+                 }
+             )
         </Router.Container>
       </main>
       <Rmwc.Drawer
         temporary=true
         open_=state.drawerOpen
-        onClose=((_) => send(CloseDrawer))>
+        onClose=(_ => send(CloseDrawer))>
         <Rmwc.DrawerContent>
           <Rmwc.ListItem>
-            <Rmwc.ListItemText> ("Item 1" |> Utils.string_) </Rmwc.ListItemText>
+            <Rmwc.ListItemText>
+              ("Item 1" |> Utils.string_)
+            </Rmwc.ListItemText>
           </Rmwc.ListItem>
           <Rmwc.ListItem>
-            <Rmwc.ListItemText> ("Item 2" |> Utils.string_) </Rmwc.ListItemText>
+            <Rmwc.ListItemText>
+              ("Item 2" |> Utils.string_)
+            </Rmwc.ListItemText>
           </Rmwc.ListItem>
           <Rmwc.ListItem>
-            <Rmwc.ListItemText> ("Item 3" |> Utils.string_) </Rmwc.ListItemText>
+            <Rmwc.ListItemText>
+              ("Item 3" |> Utils.string_)
+            </Rmwc.ListItemText>
           </Rmwc.ListItem>
         </Rmwc.DrawerContent>
       </Rmwc.Drawer>

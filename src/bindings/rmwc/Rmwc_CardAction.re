@@ -8,11 +8,9 @@ type jsProps = {
 [@bs.module "rmwc/Card"]
 external reactClass : ReasonReact.reactClass = "CardAction";
 let make = (~icon=?, ~iconToggle=?, children) =>
-ReasonReact.wrapJsForReason(
-  ~reactClass,
-  ~props=jsProps(
-    ~icon= icon |. fromOption,
-    ~iconToggle= iconToggle |. fromOption
-  ),
-  children,
-);
+  ReasonReact.wrapJsForReason(
+    ~reactClass,
+    ~props=
+      jsProps(~icon=icon |. fromOption, ~iconToggle=iconToggle |. fromOption),
+    children,
+  );

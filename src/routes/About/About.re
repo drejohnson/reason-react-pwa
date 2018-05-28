@@ -12,12 +12,15 @@ let make = _children => {
         />
       </ReactHelmet>
       <section>
-        <Rmwc.Grid> 
+        <Rmwc.Grid>
           <Rmwc.GridCell span=12>
-            <Rmwc.Typography use=Headline2 tag="h2" style=(ReactDOMRe.Style.make(~padding="1rem", ()))>
+            <Rmwc.Typography
+              use=Headline2
+              tag="h2"
+              style=(ReactDOMRe.Style.make(~padding="1rem", ()))>
               ("About" |> Utils.string_)
             </Rmwc.Typography>
-          </Rmwc.GridCell> 
+          </Rmwc.GridCell>
         </Rmwc.Grid>
       </section>
     </Fragment>,

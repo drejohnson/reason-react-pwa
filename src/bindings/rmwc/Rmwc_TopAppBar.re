@@ -21,16 +21,17 @@ let make =
       ~shortCollapsed=?,
       ~dense=?,
       children,
-    ) => 
+    ) =>
   ReasonReact.wrapJsForReason(
     ~reactClass,
-    ~props=jsProps(
-      ~onNav= onNav |. fromOption,
-      ~fixed= fixed |. fromOption,
-      ~prominent= prominent |. fromOption,
-      ~short= short |. fromOption,
-      ~shortCollapsed= shortCollapsed |. fromOption,
-      ~dense= dense |. fromOption,
-    ),
+    ~props=
+      jsProps(
+        ~onNav=onNav |. fromOption,
+        ~fixed=fixed |. fromOption,
+        ~prominent=prominent |. fromOption,
+        ~short=short |. fromOption,
+        ~shortCollapsed=shortCollapsed |. fromOption,
+        ~dense=dense |. fromOption,
+      ),
     children,
   );

@@ -9,7 +9,7 @@ type jsProps = {
   unelevated: Js.nullable(bool),
   outlined: Js.nullable(bool),
   theme: Js.nullable(string),
-  onClick: Js.nullable(ReactEventRe.Mouse.t => unit)
+  onClick: Js.nullable(ReactEventRe.Mouse.t => unit),
 };
 
 [@bs.module "rmwc/Button"]
@@ -25,18 +25,19 @@ let make =
       ~theme=?,
       ~onClick=?,
       children,
-    ) => 
+    ) =>
   ReasonReact.wrapJsForReason(
     ~reactClass,
-    ~props=jsProps(
-      ~dir= dir |. fromOption,
-      ~tag= tag |. fromOption,
-      ~dense= dense |. fromOption,
-      ~raised= raised |. fromOption,
-      ~unelevated= unelevated |. fromOption,
-      ~outlined= outlined |. fromOption,
-      ~theme= theme |. fromOption,
-      ~onClick= onClick |. fromOption,
-    ),
+    ~props=
+      jsProps(
+        ~dir=dir |. fromOption,
+        ~tag=tag |. fromOption,
+        ~dense=dense |. fromOption,
+        ~raised=raised |. fromOption,
+        ~unelevated=unelevated |. fromOption,
+        ~outlined=outlined |. fromOption,
+        ~theme=theme |. fromOption,
+        ~onClick=onClick |. fromOption,
+      ),
     children,
   );

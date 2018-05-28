@@ -13,6 +13,7 @@ body {
 }
 
 :--heading {
+  margin: 0;
   @media (--viewport-medium) {
     margin: 0;
   }

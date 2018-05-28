@@ -19,15 +19,16 @@ let make =
       ~flexible=?,
       ~flexibleDefaultBehavior=?,
       children,
-    ) => 
+    ) =>
   ReasonReact.wrapJsForReason(
     ~reactClass,
-    ~props=jsProps(
-      ~fixed= fixed |. fromOption,
-      ~waterfall= waterfall |. fromOption,
-      ~fixedLastrowOnly= fixedLastrowOnly |. fromOption,
-      ~flexible= flexible |. fromOption,
-      ~flexibleDefaultBehavior= flexibleDefaultBehavior |. fromOption,
-    ),
+    ~props=
+      jsProps(
+        ~fixed=fixed |. fromOption,
+        ~waterfall=waterfall |. fromOption,
+        ~fixedLastrowOnly=fixedLastrowOnly |. fromOption,
+        ~flexible=flexible |. fromOption,
+        ~flexibleDefaultBehavior=flexibleDefaultBehavior |. fromOption,
+      ),
     children,
   );

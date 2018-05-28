@@ -21,24 +21,18 @@ type jsProps = {
 };
 [@bs.module "rmwc/Grid"]
 external reactClass : ReasonReact.reactClass = "GridCell";
-let make = (
-  ~span=?,
-  ~phone=?,
-  ~tablet=?,
-  ~desktop=?,
-  ~order=?,
-  ~align=?, 
-  children
-) =>
-ReasonReact.wrapJsForReason(
-  ~reactClass,
-  ~props=jsProps(
-    ~span= span |. Js.Nullable.fromOption,
-    ~phone= phone |. Js.Nullable.fromOption,
-    ~tablet=  tablet |. Js.Nullable.fromOption,
-    ~desktop= desktop |. Js.Nullable.fromOption,
-    ~order= order |. Js.Nullable.fromOption,
-    ~align= align |. Js.Nullable.fromOption,
-  ),
-  children,
-);
+let make =
+    (~span=?, ~phone=?, ~tablet=?, ~desktop=?, ~order=?, ~align=?, children) =>
+  ReasonReact.wrapJsForReason(
+    ~reactClass,
+    ~props=
+      jsProps(
+        ~span=span |. Js.Nullable.fromOption,
+        ~phone=phone |. Js.Nullable.fromOption,
+        ~tablet=tablet |. Js.Nullable.fromOption,
+        ~desktop=desktop |. Js.Nullable.fromOption,
+        ~order=order |. Js.Nullable.fromOption,
+        ~align=align |. Js.Nullable.fromOption,
+      ),
+    children,
+  );
