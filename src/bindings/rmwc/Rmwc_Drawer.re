@@ -2,7 +2,7 @@ open Rmwc_Utils;
 
 [@bs.deriving abstract]
 type jsProps = {
-  open_: Js.nullable(bool),
+  [@bs.as "open"] open_: Js.nullable(bool),
   onClose: Js.nullable(ReactEventRe.Mouse.t => unit),
   onOpen: Js.nullable(ReactEventRe.Mouse.t => unit),
   permanent: Js.nullable(bool),
