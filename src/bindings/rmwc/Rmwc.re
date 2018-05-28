@@ -2,6 +2,22 @@ module Button = Rmwc_Button;
 
 module ButtonIcon = Rmwc_ButtonIcon;
 
+module Card = Rmwc_Card;
+
+module CardPrimaryAction = Rmwc_CardPrimaryAction;
+
+module CardMedia = Rmwc_CardMedia;
+
+module CardMediaContent = Rmwc_CardMediaContent;
+
+module CardActions = Rmwc_CardActions;
+
+module CardActionButtons = Rmwc_CardActionButtons;
+
+module CardActionIcons = Rmwc_CardActionIcons;
+
+module CardAction = Rmwc_CardAction;
+
 module Typography = Rmwc_Typography;
 
 module TopAppBar = Rmwc_TopAppBar;
