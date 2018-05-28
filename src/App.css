@@ -5,7 +5,7 @@
 @custom-selector :--heading h1, h2, h3, h4, h5, h6;
 
 :root {
-  --mainColor: #12345678;
+  --mainColor: #111111;
 }
 
 body {

@@ -12,9 +12,64 @@ let make = _children => {
         />
       </ReactHelmet>
       <section>
-        <Rmwc.Typography use=Headline2>
-          ("Home component" |> Utils.string_)
-        </Rmwc.Typography>
+        <Rmwc.Grid> 
+          <Rmwc.GridCell span=12>
+            <Rmwc.Typography use=Headline2 tag="h2" style=(ReactDOMRe.Style.make(~padding="1rem", ()))>
+              ("Home component" |> Utils.string_)
+            </Rmwc.Typography>
+          </Rmwc.GridCell> 
+        </Rmwc.Grid>
+        <Counter />
+        <Rmwc.Grid>
+          <Rmwc.GridCell tablet=6 desktop=4>
+            <Rmwc.Card outlined=true style=(ReactDOMRe.Style.make(~marginTop="1rem", ()))>
+              <div style=(ReactDOMRe.Style.make(~padding="1rem", ()))>
+                <Rmwc.Typography use=Headline3 tag="h3">
+                  ("Hello World Card" |> Utils.string_)
+                </Rmwc.Typography>
+                <Rmwc.Typography 
+                  use=Body1 
+                  tag="p" 
+                  theme="text-secondary-on-background"
+                  style=(ReactDOMRe.Style.make(~marginTop="1rem", ()))>
+                  ("Normcore kickstarter live-edge hammock cliche DIY hashtag. Green juice messenger bag woke bicycle rights chartreuse" |> Utils.string_)
+                </Rmwc.Typography>
+              </div>
+            </Rmwc.Card>
+          </Rmwc.GridCell>
+          <Rmwc.GridCell tablet=6 desktop=4>
+            <Rmwc.Card outlined=true style=(ReactDOMRe.Style.make(~marginTop="1rem", ()))>
+              <div style=(ReactDOMRe.Style.make(~padding="1rem", ()))>
+                <Rmwc.Typography use=Headline3 tag="h3">
+                  ("Hello World Card" |> Utils.string_)
+                </Rmwc.Typography>
+                <Rmwc.Typography 
+                  use=Body1 
+                  tag="p" 
+                  theme="text-secondary-on-background"
+                  style=(ReactDOMRe.Style.make(~marginTop="1rem", ()))>
+                  ("Normcore kickstarter live-edge hammock cliche DIY hashtag. Green juice messenger bag woke bicycle rights chartreuse" |> Utils.string_)
+                </Rmwc.Typography>
+              </div>
+            </Rmwc.Card>
+          </Rmwc.GridCell>
+          <Rmwc.GridCell desktop=4>
+            <Rmwc.Card outlined=true style=(ReactDOMRe.Style.make(~marginTop="1rem", ()))>
+              <div style=(ReactDOMRe.Style.make(~padding="1rem", ()))>
+                <Rmwc.Typography use=Headline3 tag="h3">
+                  ("Hello World Card" |> Utils.string_)
+                </Rmwc.Typography>
+                <Rmwc.Typography 
+                  use=Body1 
+                  tag="p" 
+                  theme="text-secondary-on-background"
+                  style=(ReactDOMRe.Style.make(~marginTop="1rem", ()))>
+                  ("Normcore kickstarter live-edge hammock cliche DIY hashtag. Green juice messenger bag woke bicycle rights chartreuse" |> Utils.string_)
+                </Rmwc.Typography>
+              </div>
+            </Rmwc.Card> 
+          </Rmwc.GridCell>
+        </Rmwc.Grid>
       </section>
     </Fragment>,
 };

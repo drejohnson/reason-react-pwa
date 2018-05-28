@@ -36,16 +36,6 @@ let make = (~name, _children) => {
         </Rmwc.TopAppBarRow>
       </Rmwc.TopAppBar>
       <main role="main" style=(ReactDOMRe.Style.make(~paddingTop="64px", ()))>
-        <Rmwc.Grid> <Rmwc.GridCell span=12> <Counter /> </Rmwc.GridCell> </Rmwc.Grid>
-        <Rmwc.Grid>
-          <Rmwc.GridCell tablet=6 desktop=4>
-            ("Grid Cell 1" |> Utils.string_)
-          </Rmwc.GridCell>
-          <Rmwc.GridCell tablet=6 desktop=4>
-            ("Grid Cell 2" |> Utils.string_)
-          </Rmwc.GridCell>
-          <Rmwc.GridCell desktop=4> ("Grid Cell 3" |> Utils.string_) </Rmwc.GridCell>
-        </Rmwc.Grid>
         <Rmwc.Grid>
           <Rmwc.GridCell>
             <nav>
@@ -60,20 +50,16 @@ let make = (~name, _children) => {
             </nav>
           </Rmwc.GridCell>
         </Rmwc.Grid>
-        <Rmwc.Grid>
-          <Rmwc.GridCell>
-            <Router.Container>
-              ...(
-                   (~currentRoute) =>
-                     switch (currentRoute) {
-                     | Home => <LazyHome />
-                     | About => <LazyAbout />
-                     | _ => <LazyNotFound />
-                     }
-                 )
-            </Router.Container>
-          </Rmwc.GridCell>
-        </Rmwc.Grid>
+        <Router.Container>
+          ...(
+                (~currentRoute) =>
+                  switch (currentRoute) {
+                  | Home => <LazyHome />
+                  | About => <LazyAbout />
+                  | _ => <LazyNotFound />
+                  }
+              )
+        </Router.Container>
       </main>
       <Rmwc.Drawer
         temporary=true
