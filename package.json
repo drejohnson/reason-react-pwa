@@ -3,8 +3,7 @@
   "version": "0.1.0",
   "scripts": {
     "start": "serve -s dist",
-    "dev":
-      "concurrently \"bsb -make-world -w\" \"webpack-serve ./webpack.config.js\"",
+    "dev": "concurrently \"bsb -make-world -w\" \"webpack-serve ./webpack.config.js\"",
     "prebuild": "npm run clean:dist",
     "build": "bsb -make-world && NODE_ENV=production webpack",
     "postbuild": "concurrently \"npm run copy:public\" \"npm run critical\" ",
@@ -12,7 +11,9 @@
     "clean:dist": "node tools/clean.js",
     "critical": "node tools/critical.js"
   },
-  "keywords": ["BuckleScript"],
+  "keywords": [
+    "BuckleScript"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {
@@ -24,7 +25,7 @@
     "reason-loadable": "^0.4.0",
     "reason-react": "^0.4.2",
     "reason-reroute": "^0.0.4",
-    "rmwc": "^1.6.3"
+    "rmwc": "^1.6.4"
   },
   "devDependencies": {
     "bs-dynamic-import": "^0.3.0",
