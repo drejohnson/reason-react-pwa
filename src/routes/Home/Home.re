@@ -24,7 +24,7 @@ let make = _children => {
         </Rmwc.Grid>
         <Counter />
         <Rmwc.Grid>
-          <Rmwc.GridCell tablet=6 desktop=4>
+          <Rmwc.GridCell tablet=4 desktop=4>
             <Rmwc.Card
               outlined=true
               style=(ReactDOMRe.Style.make(~marginTop="1rem", ()))>
@@ -45,7 +45,7 @@ let make = _children => {
               </div>
             </Rmwc.Card>
           </Rmwc.GridCell>
-          <Rmwc.GridCell tablet=6 desktop=4>
+          <Rmwc.GridCell tablet=4 desktop=4>
             <Rmwc.Card
               outlined=true
               style=(ReactDOMRe.Style.make(~marginTop="1rem", ()))>
@@ -66,7 +66,7 @@ let make = _children => {
               </div>
             </Rmwc.Card>
           </Rmwc.GridCell>
-          <Rmwc.GridCell desktop=4>
+          <Rmwc.GridCell tablet=4 desktop=4>
             <Rmwc.Card
               outlined=true
               style=(ReactDOMRe.Style.make(~marginTop="1rem", ()))>
