@@ -18,6 +18,8 @@ requireCSS("@material/top-app-bar/dist/mdc.top-app-bar.min.css");
 
 requireCSS("@material/card/dist/mdc.card.min.css");
 
+requireCSS("@material/icon-toggle/dist/mdc.icon-toggle.min.css");
+
 requireCSS("./App.css");
 
 ReactDOMRe.renderToElementWithId(<App name="ReasonML" />, "root");

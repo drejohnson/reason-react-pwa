@@ -21,6 +21,10 @@ let make = _children => {
               ("Home component" |> Utils.string_)
             </Rmwc.Typography>
           </Rmwc.GridCell>
+          <Rmwc.IconToggle
+            on={"label": "Remove from favorites", "content": "favorite"}
+            off={"label": "Add to favorites", "content": "favorite_border"}
+          />
         </Rmwc.Grid>
         <Counter />
         <Rmwc.Grid>

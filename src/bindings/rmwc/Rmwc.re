@@ -18,6 +18,8 @@ module CardActionIcons = Rmwc_CardActionIcons;
 
 module CardAction = Rmwc_CardAction;
 
+module IconToggle = Rmwc_IconToggle;
+
 module Typography = Rmwc_Typography;
 
 module TopAppBar = Rmwc_TopAppBar;
