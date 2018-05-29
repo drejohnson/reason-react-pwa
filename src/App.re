@@ -18,6 +18,13 @@ let make = (~name, _children) => {
     },
   render: ({state, send}) =>
     <Fragment>
+      <ReactHelmet>
+        <title> ("ReasonReact PWA" |> Utils.string_) </title>
+        <meta
+          name="description"
+          content="Reason lets you write simple, fast and quality type safe code while leveraging both the JavaScript & OCaml ecosystems."
+        />
+      </ReactHelmet>
       <Rmwc.TopAppBar fixed=true onNav=(_ => send(ToggleDrawer))>
         <Rmwc.TopAppBarRow>
           <Rmwc.TopAppBarSection alignStart=true>
