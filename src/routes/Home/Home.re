@@ -25,6 +25,7 @@ let make = _children => {
             on={"label": "Remove from favorites", "content": "favorite"}
             off={"label": "Add to favorites", "content": "favorite_border"}
           />
+          <Rmwc.Fab> ("favorite" |> Utils.string_) </Rmwc.Fab>
         </Rmwc.Grid>
         <Counter />
         <Rmwc.Grid>
