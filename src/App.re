@@ -1,5 +1,7 @@
 open Utils;
 
+requireCSS("./App.css");
+
 type state = {drawerOpen: bool};
 
 type action =
@@ -61,12 +63,23 @@ let make = (~name, _children) => {
         </Rmwc.Grid>
         <Router.Container>
           ...(
-               (~currentRoute) =>
+               (~currentRoute) => {
+                 let withCSSTransition = (component, route) =>
+                   <ReactTransitionGroup.TransitionGroup component=Js.null>
+                     <ReactTransitionGroup.CSSTransition
+                       in_=true
+                       timeout=900
+                       key=(Router.Config.routeToTitle(route))
+                       classNames="routeTransition">
+                       component
+                     </ReactTransitionGroup.CSSTransition>
+                   </ReactTransitionGroup.TransitionGroup>;
                  switch (currentRoute) {
-                 | Home => <LazyHome />
-                 | About => <LazyAbout />
+                 | Home => withCSSTransition(<Home />, Home)
+                 | About => withCSSTransition(<About />, About)
                  | _ => <LazyNotFound />
-                 }
+                 };
+               }
              )
         </Router.Container>
       </main>

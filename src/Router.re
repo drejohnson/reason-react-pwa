@@ -15,6 +15,12 @@ module Config = {
     | About => "/about"
     | NotFound => ""
     };
+  let routeToTitle = route =>
+    switch (route) {
+    | Home => "Home"
+    | About => "About"
+    | NotFound => "Not Found"
+    };
 };
 
 include ReRoute.CreateRouter(Config);

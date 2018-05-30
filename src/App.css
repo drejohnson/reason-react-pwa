@@ -1,34 +1,21 @@
-@custom-media --viewport-small (width >= 36rem);
-@custom-media --viewport-medium (width >= 48rem);
-@custom-media --viewport-large(width >= 62rem);
-@custom-media --viewport-xlarge(width >= 75rem);
-@custom-selector :--heading h1, h2, h3, h4, h5, h6;
+/* 
+* Page Transitions taken from:
+* https://github.com/persianturtle/reason-app-shell-starter-kit/blob/master/src/App.scss#L1-L15 
+*/
 
-:root {
-  --mainColor: #111111;
+@keyframes enter {
+  from { opacity: 0; transform: translateY(50px); }
 }
 
-body {
-  color: var(--mainColor);
+@keyframes exit {
+  to { opacity: 0; transform: translateY(50px); }
 }
 
-:--heading {
-  margin: 0;
-  @media (--viewport-medium) {
-    margin: 0;
-  }
+.routeTransition-enter.routeTransition-enter-active {
+  animation: enter 500ms ease 400ms both;
 }
 
-a {
-  color: rebeccapurple;
-  padding: 0 6px;
-  cursor: pointer;
-
-  &:hover {
-    color: color-mod(var(--mainColor) alpha(80%));
-  }
+.routeTransition-exit.routeTransition-exit-active {
+  animation: exit 400ms ease both;
 }
 
-button {
-  margin: 0 0.5rem;
-}

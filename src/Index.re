@@ -22,7 +22,7 @@ requireCSS("@material/icon-toggle/dist/mdc.icon-toggle.min.css");
 
 requireCSS("@material/fab/dist/mdc.fab.min.css");
 
-requireCSS("./App.css");
+requireCSS("./Index.css");
 
 ReactDOMRe.renderToElementWithId(<App name="ReasonML" />, "root");
 
