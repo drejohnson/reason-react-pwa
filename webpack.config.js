@@ -14,7 +14,7 @@ const isProd = process.env.NODE_ENV === 'production';
 
 module.exports = {
   entry: {
-    app: './src/Index.bs.js',
+    app: './src/Index.bs.js'
   },
   mode: isProd ? 'production' : 'development',
   output: {
@@ -25,9 +25,9 @@ module.exports = {
   resolve: {
     extensions: ['.bs.js', '.js', '.scss', '.sass', '.css', '.html'],
     alias: {
-      '~': './src',
+      '~': './src'
     },
-    modules: ['./src', 'node_modules'],
+    modules: ['./src', 'node_modules']
   },
   module: {
     rules: [
@@ -77,7 +77,7 @@ module.exports = {
         useShortDoctype: isProd,
         minifyCSS: isProd,
         minifyJS: isProd,
-        caseSensitive: isProd,
+        caseSensitive: isProd
       },
       hash: isProd,
       inject: true,
@@ -85,94 +85,92 @@ module.exports = {
     }),
     new ScriptExtHtmlPlugin({
       defaultAttribute: 'defer',
-      module: 'app',
+      module: 'app'
     }),
     new WebpackBar(),
     ...(isProd
       ? [
-        new WorkboxPlugin.GenerateSW({
-          swDest: 'sw.js',
-          clientsClaim: true,
-          skipWaiting: true,
-          // Exclude images from the precache
-          exclude: [/\.(?:png|jpg|jpeg|svg)$/],
-          // Define runtime caching rules.
-          runtimeCaching: [
-            {
-              urlPattern: /^(https?.*)/,
-              handler: 'networkFirst',
-              options: {
-                cacheName: 'cache-https',
-                expiration: {
-                  maxEntries: 50
-                },
-                networkTimeoutSeconds: 3
-              }
-            },
-            {
-              urlPattern: new RegExp(
-                'https://fonts.googleapis.com/(.*)'
-              ),
-              // Apply a cache-first strategy.
-              handler: 'cacheFirst',
-              options: {
-                cacheName: 'googleapis',
-                expiration: {
-                  maxEntries: 50
+          new WorkboxPlugin.GenerateSW({
+            swDest: 'sw.js',
+            clientsClaim: true,
+            skipWaiting: true,
+            // Exclude images from the precache
+            exclude: [/\.(?:png|jpg|jpeg|svg)$/],
+            // Define runtime caching rules.
+            runtimeCaching: [
+              {
+                urlPattern: /^(https?.*)/,
+                handler: 'networkFirst',
+                options: {
+                  cacheName: 'cache-https',
+                  expiration: {
+                    maxEntries: 50
+                  },
+                  networkTimeoutSeconds: 3
+                }
+              },
+              {
+                urlPattern: new RegExp('https://fonts.googleapis.com/(.*)'),
+                // Apply a cache-first strategy.
+                handler: 'cacheFirst',
+                options: {
+                  cacheName: 'googleapis',
+                  expiration: {
+                    maxEntries: 50
+                  }
+                }
+              },
+              {
+                // Match any request ends with .png, .jpg, .jpeg or .svg.
+                urlPattern: /\.(?:png|jpg|jpeg|svg)$/,
+
+                // Apply a cache-first strategy.
+                handler: 'cacheFirst',
+
+                options: {
+                  cacheName: 'images-cache',
+                  // Only cache 10 images.
+                  expiration: {
+                    maxEntries: 60,
+                    maxAgeSeconds: 30 * 24 * 60 * 60 // 30 Days
+                  },
+                  cacheableResponse: {
+                    statuses: [0, 200]
+                  }
+                }
+              },
+              {
+                urlPattern: /\.(?:js|css)$/,
+                handler: 'staleWhileRevalidate',
+                options: {
+                  cacheName: 'static-resources'
+                }
+              },
+              {
+                urlPattern: /.*(?:googleapis)\.com.*$/,
+                handler: 'staleWhileRevalidate',
+                options: {
+                  cacheName: 'googleapis-cache'
+                }
+              },
+              {
+                urlPattern: /.*(?:gstatic)\.com.*$/,
+                handler: 'staleWhileRevalidate',
+                options: {
+                  cacheName: 'gstatic-cache'
                 }
               }
-            },
-            {
-              // Match any request ends with .png, .jpg, .jpeg or .svg.
-              urlPattern: /\.(?:png|jpg|jpeg|svg)$/,
-
-              // Apply a cache-first strategy.
-              handler: 'cacheFirst',
-
-              options: {
-                cacheName: 'images-cache',
-                // Only cache 10 images.
-                expiration: {
-                  maxEntries: 60,
-                  maxAgeSeconds: 30 * 24 * 60 * 60 // 30 Days
-                },
-                cacheableResponse: {
-                  statuses: [0, 200]
-                }
-              }
-            },
-            {
-              urlPattern: /\.(?:js|css)$/,
-              handler: 'staleWhileRevalidate',
-              options: {
-                cacheName: 'static-resources'
-              }
-            },
-            {
-              urlPattern: /.*(?:googleapis)\.com.*$/,
-              handler: 'staleWhileRevalidate',
-              options: {
-                cacheName: 'googleapis-cache'
-              }
-            },
-            {
-              urlPattern: /.*(?:gstatic)\.com.*$/,
-              handler: 'staleWhileRevalidate',
-              options: {
-                cacheName: 'gstatic-cache'
-              }
-            }
-          ]
-        }),
-        // new BundleAnalyzerPlugin({ openAnalyzer: false })
-      ]
+            ]
+          })
+          // new BundleAnalyzerPlugin({ openAnalyzer: false })
+        ]
       : [])
   ],
   optimization: {
     minimizer: [
       new UglifyJsPlugin({
         cache: true,
-        parallel: true,
+        // parallel: true,
         sourceMap: true // set to true if you want JS source maps
       }),
       new OptimizeCSSAssetsPlugin({})

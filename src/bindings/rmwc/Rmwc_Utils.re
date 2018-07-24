@@ -2,7 +2,7 @@ type tag = [ | `Str(string) | `ReactClass(ReasonReact.reactClass)];
 
 type any;
 
-external any : 'a => any = "%identify";
+external any : any => 'a = "%identify";
 
 let fromOption = Js.Nullable.fromOption;
 
