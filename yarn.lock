@@ -18,69 +18,69 @@
   version "0.35.0"
   resolved "https://registry.yarnpkg.com/@material/base/-/base-0.35.0.tgz#8640c2da385e8cc393ff56153c5a319f5a7704cb"
 
-"@material/button@^0.36.1":
-  version "0.36.1"
-  resolved "https://registry.yarnpkg.com/@material/button/-/button-0.36.1.tgz#751d0925689a84ce23c20825b273a58ab77dc2d4"
+"@material/button@^0.37.1":
+  version "0.37.1"
+  resolved "https://registry.yarnpkg.com/@material/button/-/button-0.37.1.tgz#3670a5c13a7ab4f5bf22731b32cb3898c919dcd0"
   dependencies:
     "@material/elevation" "^0.36.1"
-    "@material/ripple" "^0.36.0"
+    "@material/ripple" "^0.37.1"
     "@material/rtl" "^0.36.0"
     "@material/theme" "^0.35.0"
-    "@material/typography" "^0.35.0"
+    "@material/typography" "^0.37.1"
 
-"@material/card@^0.36.1":
-  version "0.36.1"
-  resolved "https://registry.yarnpkg.com/@material/card/-/card-0.36.1.tgz#4803cdda93e2b43a9848bd36a36b4bb3f74a2b69"
+"@material/card@^0.37.1":
+  version "0.37.1"
+  resolved "https://registry.yarnpkg.com/@material/card/-/card-0.37.1.tgz#6c5a56814cacbf4ab3b09b5aea030cf22857646f"
   dependencies:
     "@material/elevation" "^0.36.1"
-    "@material/ripple" "^0.36.0"
+    "@material/ripple" "^0.37.1"
     "@material/rtl" "^0.36.0"
     "@material/theme" "^0.35.0"
 
-"@material/checkbox@^0.36.1":
-  version "0.36.1"
-  resolved "https://registry.yarnpkg.com/@material/checkbox/-/checkbox-0.36.1.tgz#734de03a95b653e29b0c75af7f538eae282fde40"
+"@material/checkbox@^0.37.1":
+  version "0.37.1"
+  resolved "https://registry.yarnpkg.com/@material/checkbox/-/checkbox-0.37.1.tgz#b8f5f100a8c40110fa6f6b6ea11896fd7a49b7d8"
   dependencies:
     "@material/animation" "^0.34.0"
     "@material/base" "^0.35.0"
-    "@material/ripple" "^0.36.0"
+    "@material/ripple" "^0.37.1"
     "@material/rtl" "^0.36.0"
-    "@material/selection-control" "^0.36.0"
+    "@material/selection-control" "^0.37.1"
     "@material/theme" "^0.35.0"
 
-"@material/chips@^0.36.1":
-  version "0.36.1"
-  resolved "https://registry.yarnpkg.com/@material/chips/-/chips-0.36.1.tgz#149e512e032bb062ab26e0905df33a172c15da5d"
+"@material/chips@^0.37.1":
+  version "0.37.1"
+  resolved "https://registry.yarnpkg.com/@material/chips/-/chips-0.37.1.tgz#ca0277102204a03d8f7796df507016916cfe554b"
   dependencies:
     "@material/animation" "^0.34.0"
     "@material/base" "^0.35.0"
-    "@material/checkbox" "^0.36.1"
-    "@material/ripple" "^0.36.0"
-    "@material/typography" "^0.35.0"
+    "@material/checkbox" "^0.37.1"
+    "@material/ripple" "^0.37.1"
+    "@material/typography" "^0.37.1"
 
-"@material/dialog@^0.36.1":
-  version "0.36.1"
-  resolved "https://registry.yarnpkg.com/@material/dialog/-/dialog-0.36.1.tgz#fc191bd24b5ec2612163091ab7062192efa4f99b"
+"@material/dialog@^0.37.1":
+  version "0.37.1"
+  resolved "https://registry.yarnpkg.com/@material/dialog/-/dialog-0.37.1.tgz#c2463e7bebf3f9dae8c8f4341286d5504315f4a8"
   dependencies:
     "@material/animation" "^0.34.0"
     "@material/base" "^0.35.0"
     "@material/elevation" "^0.36.1"
-    "@material/ripple" "^0.36.0"
+    "@material/ripple" "^0.37.1"
     "@material/rtl" "^0.36.0"
     "@material/theme" "^0.35.0"
-    "@material/typography" "^0.35.0"
+    "@material/typography" "^0.37.1"
     focus-trap "^2.3.0"
 
-"@material/drawer@^0.36.1":
-  version "0.36.1"
-  resolved "https://registry.yarnpkg.com/@material/drawer/-/drawer-0.36.1.tgz#493d0fb5de719ef83d4f6c69edc483c7f72ecd45"
+"@material/drawer@^0.37.1":
+  version "0.37.1"
+  resolved "https://registry.yarnpkg.com/@material/drawer/-/drawer-0.37.1.tgz#4e498b1116b77c9a28ede2e935c532c7f7e70afe"
   dependencies:
     "@material/animation" "^0.34.0"
     "@material/base" "^0.35.0"
     "@material/elevation" "^0.36.1"
     "@material/rtl" "^0.36.0"
     "@material/theme" "^0.35.0"
-    "@material/typography" "^0.35.0"
+    "@material/typography" "^0.37.1"
 
 "@material/elevation@^0.36.1":
   version "0.36.1"
@@ -89,66 +89,68 @@
     "@material/animation" "^0.34.0"
     "@material/theme" "^0.35.0"
 
-"@material/fab@^0.36.1":
-  version "0.36.1"
-  resolved "https://registry.yarnpkg.com/@material/fab/-/fab-0.36.1.tgz#f8bb1f446b7e4502fb9fcc856b8f7c78df613623"
+"@material/fab@^0.37.1":
+  version "0.37.1"
+  resolved "https://registry.yarnpkg.com/@material/fab/-/fab-0.37.1.tgz#d383a89c3b70d0848aad24f92b62bbf1c7da4d17"
   dependencies:
     "@material/animation" "^0.34.0"
     "@material/elevation" "^0.36.1"
-    "@material/ripple" "^0.36.0"
+    "@material/ripple" "^0.37.1"
+    "@material/rtl" "^0.36.0"
     "@material/theme" "^0.35.0"
+    "@material/typography" "^0.37.1"
 
-"@material/floating-label@^0.36.0":
-  version "0.36.0"
-  resolved "https://registry.yarnpkg.com/@material/floating-label/-/floating-label-0.36.0.tgz#309f50234f42da0151ad6c0a3d1af7dee9172cd2"
+"@material/floating-label@^0.37.1":
+  version "0.37.1"
+  resolved "https://registry.yarnpkg.com/@material/floating-label/-/floating-label-0.37.1.tgz#7251e1a9b2b305b1c8acdb9bf19320825ce1a88d"
   dependencies:
     "@material/base" "^0.35.0"
     "@material/rtl" "^0.36.0"
     "@material/theme" "^0.35.0"
-    "@material/typography" "^0.35.0"
+    "@material/typography" "^0.37.1"
 
-"@material/form-field@^0.36.0":
-  version "0.36.0"
-  resolved "https://registry.yarnpkg.com/@material/form-field/-/form-field-0.36.0.tgz#08260b3c62ce9a4c6fcf2ca6f06d048816b415f8"
+"@material/form-field@^0.37.1":
+  version "0.37.1"
+  resolved "https://registry.yarnpkg.com/@material/form-field/-/form-field-0.37.1.tgz#94922ad3cde4ecc91af6d058378e4bd52b64aa14"
   dependencies:
     "@material/base" "^0.35.0"
     "@material/rtl" "^0.36.0"
-    "@material/selection-control" "^0.36.0"
+    "@material/selection-control" "^0.37.1"
     "@material/theme" "^0.35.0"
-    "@material/typography" "^0.35.0"
+    "@material/typography" "^0.37.1"
 
-"@material/grid-list@^0.36.0":
-  version "0.36.0"
-  resolved "https://registry.yarnpkg.com/@material/grid-list/-/grid-list-0.36.0.tgz#88b22645376904cf3c93d7177ddeef7eada9c21f"
+"@material/grid-list@^0.37.1":
+  version "0.37.1"
+  resolved "https://registry.yarnpkg.com/@material/grid-list/-/grid-list-0.37.1.tgz#b76b328226e5b781a961e3166ed487b7ef97e10f"
   dependencies:
     "@material/base" "^0.35.0"
     "@material/rtl" "^0.36.0"
     "@material/theme" "^0.35.0"
-    "@material/typography" "^0.35.0"
+    "@material/typography" "^0.37.1"
 
-"@material/icon-button@^0.36.0":
-  version "0.36.0"
-  resolved "https://registry.yarnpkg.com/@material/icon-button/-/icon-button-0.36.0.tgz#3b1846d2aa12793ce6af375f83cafa9c741f8f54"
+"@material/icon-button@^0.37.1":
+  version "0.37.1"
+  resolved "https://registry.yarnpkg.com/@material/icon-button/-/icon-button-0.37.1.tgz#f56bb8af465e76a867dd47619243ae7bfbd9678f"
   dependencies:
     "@material/base" "^0.35.0"
-    "@material/ripple" "^0.36.0"
+    "@material/ripple" "^0.37.1"
     "@material/theme" "^0.35.0"
 
-"@material/icon-toggle@^0.36.0":
-  version "0.36.0"
-  resolved "https://registry.yarnpkg.com/@material/icon-toggle/-/icon-toggle-0.36.0.tgz#df9ef528b4ce0849af7ca728cf23602794cd8fad"
+"@material/icon-toggle@^0.37.1":
+  version "0.37.1"
+  resolved "https://registry.yarnpkg.com/@material/icon-toggle/-/icon-toggle-0.37.1.tgz#d491fa955c26e9f9829282729b04012d9f1f9aff"
   dependencies:
     "@material/animation" "^0.34.0"
     "@material/base" "^0.35.0"
-    "@material/ripple" "^0.36.0"
+    "@material/ripple" "^0.37.1"
     "@material/theme" "^0.35.0"
 
-"@material/image-list@^0.35.0":
-  version "0.35.0"
-  resolved "https://registry.yarnpkg.com/@material/image-list/-/image-list-0.35.0.tgz#1e0a3db2ae90da2c6f629018c3535f81fcbed72d"
+"@material/image-list@^0.37.1":
+  version "0.37.1"
+  resolved "https://registry.yarnpkg.com/@material/image-list/-/image-list-0.37.1.tgz#c7d3e954e260eaeee1ea87db8c087f4d43980196"
   dependencies:
     "@material/theme" "^0.35.0"
-    "@material/typography" "^0.35.0"
+    "@material/typography" "^0.37.1"
 
 "@material/layout-grid@^0.34.0":
   version "0.34.0"
@@ -170,46 +172,47 @@
     "@material/base" "^0.35.0"
     "@material/theme" "^0.35.0"
 
-"@material/list@^0.36.0":
-  version "0.36.0"
-  resolved "https://registry.yarnpkg.com/@material/list/-/list-0.36.0.tgz#a8bb3799ebcf569f17fb9ef3e710e4145727c851"
+"@material/list@^0.37.1":
+  version "0.37.1"
+  resolved "https://registry.yarnpkg.com/@material/list/-/list-0.37.1.tgz#4114e4d89ef88661b72cfd7c283cbb680ef6f459"
   dependencies:
-    "@material/ripple" "^0.36.0"
+    "@material/base" "^0.35.0"
+    "@material/ripple" "^0.37.1"
     "@material/rtl" "^0.36.0"
     "@material/theme" "^0.35.0"
-    "@material/typography" "^0.35.0"
+    "@material/typography" "^0.37.1"
 
-"@material/menu@^0.36.1":
-  version "0.36.1"
-  resolved "https://registry.yarnpkg.com/@material/menu/-/menu-0.36.1.tgz#6940322faa43bc4e76b2cc47c460c1cdcae49340"
+"@material/menu@^0.37.1":
+  version "0.37.1"
+  resolved "https://registry.yarnpkg.com/@material/menu/-/menu-0.37.1.tgz#c14e3476f769ca151a7ba14fd311d52c556eb60d"
   dependencies:
     "@material/animation" "^0.34.0"
     "@material/base" "^0.35.0"
     "@material/elevation" "^0.36.1"
     "@material/theme" "^0.35.0"
-    "@material/typography" "^0.35.0"
+    "@material/typography" "^0.37.1"
 
-"@material/notched-outline@^0.35.0":
-  version "0.35.0"
-  resolved "https://registry.yarnpkg.com/@material/notched-outline/-/notched-outline-0.35.0.tgz#df821f007ea84bf6d67859a2b7bcf5c44a248911"
+"@material/notched-outline@^0.37.1":
+  version "0.37.1"
+  resolved "https://registry.yarnpkg.com/@material/notched-outline/-/notched-outline-0.37.1.tgz#06a2a5b99410f7f3b4ab4e7a3f1c299754d72c6c"
   dependencies:
     "@material/animation" "^0.34.0"
     "@material/base" "^0.35.0"
     "@material/theme" "^0.35.0"
 
-"@material/radio@^0.36.0":
-  version "0.36.0"
-  resolved "https://registry.yarnpkg.com/@material/radio/-/radio-0.36.0.tgz#7d2582aad635b8cd74674fe1a58381d8a1ceba6f"
+"@material/radio@^0.37.1":
+  version "0.37.1"
+  resolved "https://registry.yarnpkg.com/@material/radio/-/radio-0.37.1.tgz#652406290a9d8702633863ea0b05963d53e8a668"
   dependencies:
     "@material/animation" "^0.34.0"
     "@material/base" "^0.35.0"
-    "@material/ripple" "^0.36.0"
-    "@material/selection-control" "^0.36.0"
+    "@material/ripple" "^0.37.1"
+    "@material/selection-control" "^0.37.1"
     "@material/theme" "^0.35.0"
 
-"@material/ripple@^0.36.0":
-  version "0.36.0"
-  resolved "https://registry.yarnpkg.com/@material/ripple/-/ripple-0.36.0.tgz#262491c37643c3aabad93cd033698622c70beb13"
+"@material/ripple@^0.37.1":
+  version "0.37.1"
+  resolved "https://registry.yarnpkg.com/@material/ripple/-/ripple-0.37.1.tgz#7bfe43036c2a9066f5083ba2ac5b952d96be16a4"
   dependencies:
     "@material/animation" "^0.34.0"
     "@material/base" "^0.35.0"
@@ -219,24 +222,25 @@
   version "0.36.0"
   resolved "https://registry.yarnpkg.com/@material/rtl/-/rtl-0.36.0.tgz#a81b587981dc6e09f51e26da8a7447f89358ccd5"
 
-"@material/select@^0.36.0":
-  version "0.36.0"
-  resolved "https://registry.yarnpkg.com/@material/select/-/select-0.36.0.tgz#cb851e4d0d935c59da1d7a03f9da29fc7732f489"
+"@material/select@^0.37.1":
+  version "0.37.1"
+  resolved "https://registry.yarnpkg.com/@material/select/-/select-0.37.1.tgz#5567c5103a070cbe76214539566f6f5227165910"
   dependencies:
     "@material/animation" "^0.34.0"
     "@material/base" "^0.35.0"
-    "@material/floating-label" "^0.36.0"
+    "@material/floating-label" "^0.37.1"
     "@material/line-ripple" "^0.35.0"
-    "@material/ripple" "^0.36.0"
+    "@material/notched-outline" "^0.37.1"
+    "@material/ripple" "^0.37.1"
     "@material/rtl" "^0.36.0"
     "@material/theme" "^0.35.0"
-    "@material/typography" "^0.35.0"
+    "@material/typography" "^0.37.1"
 
-"@material/selection-control@^0.36.0":
-  version "0.36.0"
-  resolved "https://registry.yarnpkg.com/@material/selection-control/-/selection-control-0.36.0.tgz#db2203fb82c0b8e49718c0c21fa23a9a2b101f79"
+"@material/selection-control@^0.37.1":
+  version "0.37.1"
+  resolved "https://registry.yarnpkg.com/@material/selection-control/-/selection-control-0.37.1.tgz#de36d8e535bc19ef43a1511c7a46a53bef1cfe51"
   dependencies:
-    "@material/ripple" "^0.36.0"
+    "@material/ripple" "^0.37.1"
 
 "@material/shape@^0.35.0":
   version "0.35.0"
@@ -251,15 +255,15 @@
     "@material/rtl" "^0.36.0"
     "@material/theme" "^0.35.0"
 
-"@material/snackbar@^0.36.0":
-  version "0.36.0"
-  resolved "https://registry.yarnpkg.com/@material/snackbar/-/snackbar-0.36.0.tgz#25742f17e3e9ef798bfebd013ee7e1c4ebf59717"
+"@material/snackbar@^0.37.1":
+  version "0.37.1"
+  resolved "https://registry.yarnpkg.com/@material/snackbar/-/snackbar-0.37.1.tgz#17067fc7392874058b7eb6229cf6667f94180e74"
   dependencies:
     "@material/animation" "^0.34.0"
     "@material/base" "^0.35.0"
     "@material/rtl" "^0.36.0"
     "@material/theme" "^0.35.0"
-    "@material/typography" "^0.35.0"
+    "@material/typography" "^0.37.1"
 
 "@material/switch@^0.36.1":
   version "0.36.1"
@@ -270,61 +274,61 @@
     "@material/rtl" "^0.36.0"
     "@material/theme" "^0.35.0"
 
-"@material/tabs@^0.36.0":
-  version "0.36.0"
-  resolved "https://registry.yarnpkg.com/@material/tabs/-/tabs-0.36.0.tgz#0f989dcbe39d1c5336deeccb5756e816199bfbbe"
+"@material/tabs@^0.37.1":
+  version "0.37.1"
+  resolved "https://registry.yarnpkg.com/@material/tabs/-/tabs-0.37.1.tgz#421b282e0da7b9417f71f3f9f31be63282326692"
   dependencies:
     "@material/animation" "^0.34.0"
     "@material/base" "^0.35.0"
-    "@material/ripple" "^0.36.0"
+    "@material/ripple" "^0.37.1"
     "@material/rtl" "^0.36.0"
     "@material/theme" "^0.35.0"
-    "@material/typography" "^0.35.0"
+    "@material/typography" "^0.37.1"
 
-"@material/textfield@^0.36.1":
-  version "0.36.1"
-  resolved "https://registry.yarnpkg.com/@material/textfield/-/textfield-0.36.1.tgz#3efd5dc3b3e432ab37cccbe7f02c0a1e6dd24fd4"
+"@material/textfield@^0.37.1":
+  version "0.37.1"
+  resolved "https://registry.yarnpkg.com/@material/textfield/-/textfield-0.37.1.tgz#d8351754aaff6d73a385825170a8b4d5bb234edd"
   dependencies:
     "@material/animation" "^0.34.0"
     "@material/base" "^0.35.0"
-    "@material/floating-label" "^0.36.0"
+    "@material/floating-label" "^0.37.1"
     "@material/line-ripple" "^0.35.0"
-    "@material/notched-outline" "^0.35.0"
-    "@material/ripple" "^0.36.0"
+    "@material/notched-outline" "^0.37.1"
+    "@material/ripple" "^0.37.1"
     "@material/rtl" "^0.36.0"
     "@material/theme" "^0.35.0"
-    "@material/typography" "^0.35.0"
+    "@material/typography" "^0.37.1"
 
 "@material/theme@^0.35.0":
   version "0.35.0"
   resolved "https://registry.yarnpkg.com/@material/theme/-/theme-0.35.0.tgz#a2c76f60b82a53d399b769ef91ec52e83ad3c3bd"
 
-"@material/toolbar@^0.36.1":
-  version "0.36.1"
-  resolved "https://registry.yarnpkg.com/@material/toolbar/-/toolbar-0.36.1.tgz#ffa8af91a6775cc55c2d6f4207c94dbc574b6beb"
+"@material/toolbar@^0.37.1":
+  version "0.37.1"
+  resolved "https://registry.yarnpkg.com/@material/toolbar/-/toolbar-0.37.1.tgz#d47c295efab895905d8d1ab6945c0388db3ced9a"
   dependencies:
     "@material/base" "^0.35.0"
     "@material/elevation" "^0.36.1"
-    "@material/ripple" "^0.36.0"
+    "@material/ripple" "^0.37.1"
     "@material/rtl" "^0.36.0"
     "@material/theme" "^0.35.0"
-    "@material/typography" "^0.35.0"
+    "@material/typography" "^0.37.1"
 
-"@material/top-app-bar@^0.36.1":
-  version "0.36.1"
-  resolved "https://registry.yarnpkg.com/@material/top-app-bar/-/top-app-bar-0.36.1.tgz#2b80bac73b6eb426efee9ba3f676084fefcd19fb"
+"@material/top-app-bar@^0.37.1":
+  version "0.37.1"
+  resolved "https://registry.yarnpkg.com/@material/top-app-bar/-/top-app-bar-0.37.1.tgz#b9e669ffb823465594c374448196d182b3c0f132"
   dependencies:
     "@material/animation" "^0.34.0"
     "@material/base" "^0.35.0"
     "@material/elevation" "^0.36.1"
-    "@material/ripple" "^0.36.0"
+    "@material/ripple" "^0.37.1"
     "@material/rtl" "^0.36.0"
     "@material/theme" "^0.35.0"
-    "@material/typography" "^0.35.0"
+    "@material/typography" "^0.37.1"
 
-"@material/typography@^0.35.0":
-  version "0.35.0"
-  resolved "https://registry.yarnpkg.com/@material/typography/-/typography-0.35.0.tgz#23ad7eb7c9789e69c7c3fa54df8fc311cd7fc4b1"
+"@material/typography@^0.37.1":
+  version "0.37.1"
+  resolved "https://registry.yarnpkg.com/@material/typography/-/typography-0.37.1.tgz#2e14e3ee5418a5170d793cdf7b6a671c8896292c"
 
 "@shellscape/koa-send@^4.1.0":
   version "4.1.3"
@@ -571,7 +575,7 @@ ajv@^6.0.1, ajv@^6.1.0:
     json-schema-traverse "^0.3.0"
     uri-js "^3.0.2"
 
-alphanum-sort@^1.0.1, alphanum-sort@^1.0.2:
+alphanum-sort@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/alphanum-sort/-/alphanum-sort-1.0.2.tgz#97a1119649b211ad33691d9f9f486a8ec9fbe0a3"
 
@@ -771,18 +775,7 @@ atob@~1.1.0:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/atob/-/atob-1.1.3.tgz#95f13629b12c3a51a5d215abdce2aa9f32f80773"
 
-autoprefixer@^6.3.1:
-  version "6.7.7"
-  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-6.7.7.tgz#1dbd1c835658e35ce3f9984099db00585c782014"
-  dependencies:
-    browserslist "^1.7.6"
-    caniuse-db "^1.0.30000634"
-    normalize-range "^0.1.2"
-    num2fraction "^1.2.2"
-    postcss "^5.2.16"
-    postcss-value-parser "^3.2.3"
-
-autoprefixer@^8.6.3, autoprefixer@^8.6.5:
+autoprefixer@^8.6.5:
   version "8.6.5"
   resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-8.6.5.tgz#343f3d193ed568b3208e00117a1b96eb691d4ee9"
   dependencies:
@@ -791,6 +784,17 @@ autoprefixer@^8.6.3, autoprefixer@^8.6.5:
     normalize-range "^0.1.2"
     num2fraction "^1.2.2"
     postcss "^6.0.23"
+    postcss-value-parser "^3.2.3"
+
+autoprefixer@^9.1.0:
+  version "9.1.0"
+  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-9.1.0.tgz#566a70d1148046b96b31efa08090f1999ffb6d8c"
+  dependencies:
+    browserslist "^4.0.1"
+    caniuse-lite "^1.0.30000872"
+    normalize-range "^0.1.2"
+    num2fraction "^1.2.2"
+    postcss "^7.0.2"
     postcss-value-parser "^3.2.3"
 
 aws-sign2@~0.7.0:
@@ -1010,13 +1014,6 @@ browserify-zlib@^0.2.0:
   dependencies:
     pako "~1.0.5"
 
-browserslist@^1.3.6, browserslist@^1.5.2, browserslist@^1.7.6:
-  version "1.7.7"
-  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-1.7.7.tgz#0bd76704258be829b2398bb50e4b62d1a166b0b9"
-  dependencies:
-    caniuse-db "^1.0.30000639"
-    electron-to-chromium "^1.2.7"
-
 browserslist@^3.2.8:
   version "3.2.8"
   resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-3.2.8.tgz#b0005361d6471f0f5952797a76fc985f1f978fc6"
@@ -1024,13 +1021,21 @@ browserslist@^3.2.8:
     caniuse-lite "^1.0.30000844"
     electron-to-chromium "^1.3.47"
 
+browserslist@^4.0.0, browserslist@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.0.1.tgz#61c05ce2a5843c7d96166408bc23d58b5416e818"
+  dependencies:
+    caniuse-lite "^1.0.30000865"
+    electron-to-chromium "^1.3.52"
+    node-releases "^1.0.0-alpha.10"
+
 bs-dynamic-import@0.3.0, bs-dynamic-import@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/bs-dynamic-import/-/bs-dynamic-import-0.3.0.tgz#538f6452774ffaf67471511ec971cc6b9ccb2ca0"
 
-bs-platform@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-4.0.0.tgz#4190460550414eecff92f1e2bbaf4d9c557b60af"
+bs-platform@^4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-4.0.3.tgz#4510c1c915cc5b169b5717e5c0ada52d3f99ff98"
 
 buffer-from@^1.0.0:
   version "1.0.0"
@@ -1142,24 +1147,24 @@ camelize@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/camelize/-/camelize-1.0.0.tgz#164a5483e630fa4321e5af07020e531831b2609b"
 
-caniuse-api@^1.5.2:
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/caniuse-api/-/caniuse-api-1.6.1.tgz#b534e7c734c4f81ec5fbe8aca2ad24354b962c6c"
+caniuse-api@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/caniuse-api/-/caniuse-api-3.0.0.tgz#5e4d90e2274961d46291997df599e3ed008ee4c0"
   dependencies:
-    browserslist "^1.3.6"
-    caniuse-db "^1.0.30000529"
+    browserslist "^4.0.0"
+    caniuse-lite "^1.0.0"
     lodash.memoize "^4.1.2"
     lodash.uniq "^4.5.0"
 
-caniuse-db@^1.0.30000529, caniuse-db@^1.0.30000634, caniuse-db@^1.0.30000639:
-  version "1.0.30000839"
-  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000839.tgz#55a86e402c74ae17149707bea3ea399522233497"
+caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000865, caniuse-lite@^1.0.30000872:
+  version "1.0.30000874"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000874.tgz#a641b1f1c420d58d9b132920ef6ba87bbdcd2223"
 
 caniuse-lite@^1.0.30000844:
   version "1.0.30000846"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000846.tgz#2092911eecad71a89dae1faa62bcc202fde7f959"
 
-caniuse-lite@^1.0.30000859, caniuse-lite@^1.0.30000864:
+caniuse-lite@^1.0.30000864:
   version "1.0.30000865"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000865.tgz#70026616e8afe6e1442f8bb4e1092987d81a2f25"
 
@@ -1276,12 +1281,6 @@ cipher-base@^1.0.0, cipher-base@^1.0.1, cipher-base@^1.0.3:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
 
-clap@^1.0.9:
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/clap/-/clap-1.2.3.tgz#4f36745b32008492557f46412d66d50cb99bce51"
-  dependencies:
-    chalk "^1.1.3"
-
 class-utils@^0.3.5:
   version "0.3.6"
   resolved "https://registry.yarnpkg.com/class-utils/-/class-utils-0.3.6.tgz#f93369ae8b9a7ce02fd41faad0ca83033190c463"
@@ -1361,10 +1360,6 @@ clone-stats@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/clone-stats/-/clone-stats-1.0.0.tgz#b3782dff8bb5474e18b9b6bf0fdfe782f8777680"
 
-clone@^1.0.2:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/clone/-/clone-1.0.4.tgz#da309cc263df15994c688ca902179ca3c7cd7c7e"
-
 clone@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/clone/-/clone-2.1.1.tgz#d217d1e961118e3ac9a4b8bba3285553bf647cdb"
@@ -1380,12 +1375,6 @@ cloneable-readable@^1.0.0:
 co@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/co/-/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
-
-coa@~1.0.1:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/coa/-/coa-1.0.4.tgz#a9ef153660d6a86a8bdec0289a5c684d217432fd"
-  dependencies:
-    q "^1.1.2"
 
 coa@~2.0.1:
   version "2.0.1"
@@ -1404,21 +1393,25 @@ collection-visit@^1.0.0:
     map-visit "^1.0.0"
     object-visit "^1.0.0"
 
-color-convert@^1.3.0, color-convert@^1.8.2, color-convert@^1.9.0:
+color-convert@^1.8.2, color-convert@^1.9.0:
   version "1.9.1"
   resolved "https://registry.yarnpkg.com/color-convert/-/color-convert-1.9.1.tgz#c1261107aeb2f294ebffec9ed9ecad529a6097ed"
   dependencies:
     color-name "^1.1.1"
 
+color-convert@^1.9.1:
+  version "1.9.2"
+  resolved "https://registry.yarnpkg.com/color-convert/-/color-convert-1.9.2.tgz#49881b8fba67df12a96bdf3f56c0aab9e7913147"
+  dependencies:
+    color-name "1.1.1"
+
+color-name@1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/color-name/-/color-name-1.1.1.tgz#4b1415304cf50028ea81643643bd82ea05803689"
+
 color-name@^1.0.0, color-name@^1.1.1:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/color-name/-/color-name-1.1.3.tgz#a7d0558bd89c42f795dd42328f740831ca53bc25"
-
-color-string@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/color-string/-/color-string-0.3.0.tgz#27d46fb67025c5c2fa25993bfbf579e47841b991"
-  dependencies:
-    color-name "^1.0.0"
 
 color-string@^1.4.0:
   version "1.5.2"
@@ -1427,13 +1420,12 @@ color-string@^1.4.0:
     color-name "^1.0.0"
     simple-swizzle "^0.2.2"
 
-color@^0.11.0:
-  version "0.11.4"
-  resolved "https://registry.yarnpkg.com/color/-/color-0.11.4.tgz#6d7b5c74fb65e841cd48792ad1ed5e07b904d764"
+color-string@^1.5.2:
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/color-string/-/color-string-1.5.3.tgz#c9bbc5f01b58b5492f3d6857459cb6590ce204cc"
   dependencies:
-    clone "^1.0.2"
-    color-convert "^1.3.0"
-    color-string "^0.3.0"
+    color-name "^1.0.0"
+    simple-swizzle "^0.2.2"
 
 color@^1.0.3:
   version "1.0.3"
@@ -1442,13 +1434,12 @@ color@^1.0.3:
     color-convert "^1.8.2"
     color-string "^1.4.0"
 
-colormin@^1.0.5:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/colormin/-/colormin-1.1.2.tgz#ea2f7420a72b96881a38aae59ec124a6f7298133"
+color@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/color/-/color-3.0.0.tgz#d920b4328d534a3ac8295d68f7bd4ba6c427be9a"
   dependencies:
-    color "^0.11.0"
-    css-color-names "0.0.4"
-    has "^1.0.1"
+    color-convert "^1.9.1"
+    color-string "^1.5.2"
 
 colors@~1.1.2:
   version "1.1.2"
@@ -1507,9 +1498,9 @@ concat-stream@^1.5.0:
     readable-stream "^2.2.2"
     typedarray "^0.0.6"
 
-concurrently@^3.6.0:
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/concurrently/-/concurrently-3.6.0.tgz#c25e34b156a9d5bd4f256a0d85f6192438ae481f"
+concurrently@^3.6.1:
+  version "3.6.1"
+  resolved "https://registry.yarnpkg.com/concurrently/-/concurrently-3.6.1.tgz#2f95baec5c4051294dfbb55b57a3b98a3e2b45ec"
   dependencies:
     chalk "^2.4.1"
     commander "2.6.0"
@@ -1631,6 +1622,14 @@ cosmiconfig@^4.0.0:
     js-yaml "^3.9.0"
     parse-json "^4.0.0"
     require-from-string "^2.0.1"
+
+cosmiconfig@^5.0.0:
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/cosmiconfig/-/cosmiconfig-5.0.5.tgz#a809e3c2306891ce17ab70359dc8bdf661fe2cd0"
+  dependencies:
+    is-directory "^0.3.1"
+    js-yaml "^3.9.0"
+    parse-json "^4.0.0"
 
 cosmiconfig@^5.0.2:
   version "5.0.4"
@@ -1756,9 +1755,16 @@ crypto-random-string@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/crypto-random-string/-/crypto-random-string-1.0.0.tgz#a230f64f568310e1498009940790ec99545bca7e"
 
-css-color-names@0.0.4:
+css-color-names@0.0.4, css-color-names@^0.0.4:
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/css-color-names/-/css-color-names-0.0.4.tgz#808adc2e79cf84738069b646cb20ec27beb629e0"
+
+css-declaration-sorter@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/css-declaration-sorter/-/css-declaration-sorter-3.0.1.tgz#d0e3056b0fd88dc1ea9dceff435adbe9c702a7f8"
+  dependencies:
+    postcss "^6.0.0"
+    timsort "^0.3.0"
 
 css-loader@^1.0.0:
   version "1.0.0"
@@ -1841,6 +1847,10 @@ css-tree@1.0.0-alpha25:
     mdn-data "^1.0.0"
     source-map "^0.5.3"
 
+css-unit-converter@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/css-unit-converter/-/css-unit-converter-1.1.1.tgz#d9b9281adcfd8ced935bdbaba83786897f64e996"
+
 css-url-regex@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/css-url-regex/-/css-url-regex-1.1.0.tgz#83834230cc9f74c457de59eebd1543feeb83b7ec"
@@ -1883,55 +1893,73 @@ cssesc@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/cssesc/-/cssesc-1.0.1.tgz#ef7bd8d0229ed6a3a7051ff7771265fe7330e0a8"
 
-cssnano@^3.10.0:
-  version "3.10.0"
-  resolved "https://registry.yarnpkg.com/cssnano/-/cssnano-3.10.0.tgz#4f38f6cea2b9b17fa01490f23f1dc68ea65c1c38"
+cssnano-preset-default@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/cssnano-preset-default/-/cssnano-preset-default-4.0.0.tgz#c334287b4f7d49fb2d170a92f9214655788e3b6b"
   dependencies:
-    autoprefixer "^6.3.1"
-    decamelize "^1.1.2"
-    defined "^1.0.0"
-    has "^1.0.1"
-    object-assign "^4.0.1"
-    postcss "^5.0.14"
-    postcss-calc "^5.2.0"
-    postcss-colormin "^2.1.8"
-    postcss-convert-values "^2.3.4"
-    postcss-discard-comments "^2.0.4"
-    postcss-discard-duplicates "^2.0.1"
-    postcss-discard-empty "^2.0.1"
-    postcss-discard-overridden "^0.1.1"
-    postcss-discard-unused "^2.2.1"
-    postcss-filter-plugins "^2.0.0"
-    postcss-merge-idents "^2.1.5"
-    postcss-merge-longhand "^2.0.1"
-    postcss-merge-rules "^2.0.3"
-    postcss-minify-font-values "^1.0.2"
-    postcss-minify-gradients "^1.0.1"
-    postcss-minify-params "^1.0.4"
-    postcss-minify-selectors "^2.0.4"
-    postcss-normalize-charset "^1.1.0"
-    postcss-normalize-url "^3.0.7"
-    postcss-ordered-values "^2.1.0"
-    postcss-reduce-idents "^2.2.2"
-    postcss-reduce-initial "^1.0.0"
-    postcss-reduce-transforms "^1.0.3"
-    postcss-svgo "^2.1.1"
-    postcss-unique-selectors "^2.0.2"
-    postcss-value-parser "^3.2.3"
-    postcss-zindex "^2.0.1"
+    css-declaration-sorter "^3.0.0"
+    cssnano-util-raw-cache "^4.0.0"
+    postcss "^6.0.0"
+    postcss-calc "^6.0.0"
+    postcss-colormin "^4.0.0"
+    postcss-convert-values "^4.0.0"
+    postcss-discard-comments "^4.0.0"
+    postcss-discard-duplicates "^4.0.0"
+    postcss-discard-empty "^4.0.0"
+    postcss-discard-overridden "^4.0.0"
+    postcss-merge-longhand "^4.0.0"
+    postcss-merge-rules "^4.0.0"
+    postcss-minify-font-values "^4.0.0"
+    postcss-minify-gradients "^4.0.0"
+    postcss-minify-params "^4.0.0"
+    postcss-minify-selectors "^4.0.0"
+    postcss-normalize-charset "^4.0.0"
+    postcss-normalize-display-values "^4.0.0"
+    postcss-normalize-positions "^4.0.0"
+    postcss-normalize-repeat-style "^4.0.0"
+    postcss-normalize-string "^4.0.0"
+    postcss-normalize-timing-functions "^4.0.0"
+    postcss-normalize-unicode "^4.0.0"
+    postcss-normalize-url "^4.0.0"
+    postcss-normalize-whitespace "^4.0.0"
+    postcss-ordered-values "^4.0.0"
+    postcss-reduce-initial "^4.0.0"
+    postcss-reduce-transforms "^4.0.0"
+    postcss-svgo "^4.0.0"
+    postcss-unique-selectors "^4.0.0"
+
+cssnano-util-get-arguments@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/cssnano-util-get-arguments/-/cssnano-util-get-arguments-4.0.0.tgz#ed3a08299f21d75741b20f3b81f194ed49cc150f"
+
+cssnano-util-get-match@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/cssnano-util-get-match/-/cssnano-util-get-match-4.0.0.tgz#c0e4ca07f5386bb17ec5e52250b4f5961365156d"
+
+cssnano-util-raw-cache@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/cssnano-util-raw-cache/-/cssnano-util-raw-cache-4.0.0.tgz#be0a2856e25f185f5f7a2bcc0624e28b7f179a9f"
+  dependencies:
+    postcss "^6.0.0"
+
+cssnano-util-same-parent@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/cssnano-util-same-parent/-/cssnano-util-same-parent-4.0.0.tgz#d2a3de1039aa98bc4ec25001fa050330c2a16dac"
+
+cssnano@^4.0.2:
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/cssnano/-/cssnano-4.0.5.tgz#8789b5fdbe7be05d8a0f7e45c4c789ebe712f5aa"
+  dependencies:
+    cosmiconfig "^5.0.0"
+    cssnano-preset-default "^4.0.0"
+    is-resolvable "^1.0.0"
+    postcss "^6.0.0"
 
 csso@^3.5.0:
   version "3.5.0"
   resolved "https://registry.yarnpkg.com/csso/-/csso-3.5.0.tgz#acdbba5719e2c87bc801eadc032764b2e4b9d4e7"
   dependencies:
     css-tree "1.0.0-alpha.27"
-
-csso@~2.3.1:
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/csso/-/csso-2.3.2.tgz#ddd52c587033f49e94b71fc55569f252e8ff5f85"
-  dependencies:
-    clap "^1.0.9"
-    source-map "^0.5.3"
 
 currently-unhandled@^0.4.1:
   version "0.4.1"
@@ -2035,10 +2063,6 @@ define-property@^2.0.2:
   dependencies:
     is-descriptor "^1.0.2"
     isobject "^3.0.1"
-
-defined@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/defined/-/defined-1.0.0.tgz#c98d9bcef75674188e110969151199e39b1fa693"
 
 delayed-stream@~1.0.0:
   version "1.0.0"
@@ -2169,7 +2193,7 @@ dot-prop@^3.0.0:
   dependencies:
     is-obj "^1.0.0"
 
-dot-prop@^4.1.0:
+dot-prop@^4.1.0, dot-prop@^4.1.1:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/dot-prop/-/dot-prop-4.2.0.tgz#1f19e0c2e1aa0e32797c49799f2837ac6af69c57"
   dependencies:
@@ -2212,13 +2236,13 @@ ejs@^2.5.7:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/ejs/-/ejs-2.6.1.tgz#498ec0d495655abc6f23cd61868d926464071aa0"
 
-electron-to-chromium@^1.2.7:
-  version "1.3.45"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.45.tgz#458ac1b1c5c760ce8811a16d2bfbd97ec30bafb8"
-
 electron-to-chromium@^1.3.47:
   version "1.3.48"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.48.tgz#d3b0d8593814044e092ece2108fc3ac9aea4b900"
+
+electron-to-chromium@^1.3.52:
+  version "1.3.55"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.55.tgz#f150e10b20b77d9d41afcca312efe0c3b1a7fdce"
 
 elliptic@^6.0.0:
   version "6.4.0"
@@ -2351,16 +2375,12 @@ escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
 
-eslint-scope@^3.7.1:
-  version "3.7.1"
-  resolved "https://registry.yarnpkg.com/eslint-scope/-/eslint-scope-3.7.1.tgz#3d63c3edfda02e06e01a452ad88caacc7cdcb6e8"
+eslint-scope@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-scope/-/eslint-scope-4.0.0.tgz#50bf3071e9338bcdc43331794a0cb533f0136172"
   dependencies:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
-
-esprima@^2.6.0:
-  version "2.7.3"
-  resolved "https://registry.yarnpkg.com/esprima/-/esprima-2.7.3.tgz#96e3b70d5779f6ad49cd032673d1c312767ba581"
 
 esprima@^4.0.0:
   version "4.0.0"
@@ -2631,6 +2651,12 @@ find-up@^2.0.0, find-up@^2.1.0:
   resolved "https://registry.yarnpkg.com/find-up/-/find-up-2.1.0.tgz#45d1b7e506c717ddd482775a2b77920a3c0c57a7"
   dependencies:
     locate-path "^2.0.0"
+
+find-up@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/find-up/-/find-up-3.0.0.tgz#49169f1d7993430646da61ecc5ae355c21c97b73"
+  dependencies:
+    locate-path "^3.0.0"
 
 flatten@^1.0.2:
   version "1.0.2"
@@ -3023,6 +3049,12 @@ has-values@^1.0.0:
     is-number "^3.0.0"
     kind-of "^4.0.0"
 
+has@^1.0.0:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/has/-/has-1.0.3.tgz#722d7cbfc1f6aa8241f16dd814e011e1f41e8796"
+  dependencies:
+    function-bind "^1.1.1"
+
 has@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/has/-/has-1.0.1.tgz#8461733f538b0837c9361e39a9ab9e9704dc2f28"
@@ -3060,6 +3092,10 @@ he@1.1.x:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/he/-/he-1.1.1.tgz#93410fd21b009735151f8868c2f271f3427e23fd"
 
+hex-color-regex@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/hex-color-regex/-/hex-color-regex-1.1.0.tgz#4c06fccb4602fe2602b3c93df82d7e7dbf1a8a8e"
+
 hmac-drbg@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/hmac-drbg/-/hmac-drbg-1.0.1.tgz#d2745701025a6c775a6c545793ed502fc0c649a1"
@@ -3075,6 +3111,14 @@ hoek@4.x.x:
 hosted-git-info@^2.1.4:
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.6.0.tgz#23235b29ab230c576aab0d4f13fc046b0b038222"
+
+hsl-regex@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/hsl-regex/-/hsl-regex-1.0.0.tgz#d49330c789ed819e276a4c0d272dffa30b18fe6e"
+
+hsla-regex@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/hsla-regex/-/hsla-regex-1.0.0.tgz#c1ce7a3168c8c6614033a4b5f7877f3b225f9c38"
 
 html-comment-regex@^1.1.0:
   version "1.1.1"
@@ -3410,6 +3454,17 @@ is-ci@^1.0.10, is-ci@^1.1.0:
   dependencies:
     ci-info "^1.0.0"
 
+is-color-stop@^1.0.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/is-color-stop/-/is-color-stop-1.1.0.tgz#cfff471aee4dd5c9e158598fbe12967b5cdad345"
+  dependencies:
+    css-color-names "^0.0.4"
+    hex-color-regex "^1.1.0"
+    hsl-regex "^1.0.0"
+    hsla-regex "^1.0.0"
+    rgb-regex "^1.0.1"
+    rgba-regex "^1.0.0"
+
 is-data-descriptor@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/is-data-descriptor/-/is-data-descriptor-0.1.4.tgz#0b5ee648388e2c860282e793f1856fec3f301b56"
@@ -3561,6 +3616,10 @@ is-regex@^1.0.4:
   dependencies:
     has "^1.0.1"
 
+is-resolvable@^1.0.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/is-resolvable/-/is-resolvable-1.1.0.tgz#fb18f87ce1feb925169c9a407c19318a3206ed88"
+
 is-retry-allowed@^1.0.0, is-retry-allowed@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/is-retry-allowed/-/is-retry-allowed-1.1.0.tgz#11a060568b67339444033d0125a61a20d564fb34"
@@ -3569,9 +3628,9 @@ is-stream@^1.0.0, is-stream@^1.0.1, is-stream@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/is-stream/-/is-stream-1.1.0.tgz#12d4a3dd4e68e0b79ceb8dbc84173ae80d91ca44"
 
-is-svg@^2.0.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/is-svg/-/is-svg-2.1.0.tgz#cf61090da0d9efbcab8722deba6f032208dbb0e9"
+is-svg@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/is-svg/-/is-svg-3.0.0.tgz#9321dbd29c212e5ca99c4fa9794c714bcafa2f75"
   dependencies:
     html-comment-regex "^1.1.0"
 
@@ -3649,7 +3708,7 @@ joi@^11.1.1:
     isemail "3.x.x"
     topo "2.x.x"
 
-js-base64@^2.1.8, js-base64@^2.1.9:
+js-base64@^2.1.8:
   version "2.4.3"
   resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-2.4.3.tgz#2e545ec2b0f2957f41356510205214e98fad6582"
 
@@ -3670,13 +3729,6 @@ js-yaml@~3.10.0:
   dependencies:
     argparse "^1.0.7"
     esprima "^4.0.0"
-
-js-yaml@~3.7.0:
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.7.0.tgz#5c967ddd837a9bfdca5f2de84253abe8a1c03b80"
-  dependencies:
-    argparse "^1.0.7"
-    esprima "^2.6.0"
 
 jsbn@~0.1.0:
   version "0.1.1"
@@ -3911,6 +3963,13 @@ locate-path@^2.0.0:
     p-locate "^2.0.0"
     path-exists "^3.0.0"
 
+locate-path@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/locate-path/-/locate-path-3.0.0.tgz#dbec3b3ab759758071b58fe59fc41871af21400e"
+  dependencies:
+    p-locate "^3.0.0"
+    path-exists "^3.0.0"
+
 lodash._reinterpolate@~3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/lodash._reinterpolate/-/lodash._reinterpolate-3.0.0.tgz#0ccf2d89166af03b3663c796538b75ac6e114d9d"
@@ -4101,10 +4160,6 @@ lru-cache@^4.0.1, lru-cache@^4.1.1:
     pseudomap "^1.0.2"
     yallist "^2.1.2"
 
-macaddress@^0.2.8:
-  version "0.2.8"
-  resolved "https://registry.yarnpkg.com/macaddress/-/macaddress-0.2.8.tgz#5904dc537c39ec6dbefeae902327135fa8511f12"
-
 make-dir@^1.0.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/make-dir/-/make-dir-1.2.0.tgz#6d6a49eead4aae296c53bbf3a1a008bd6c89469b"
@@ -4133,52 +4188,48 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-material-components-web@0.36.1:
-  version "0.36.1"
-  resolved "https://registry.yarnpkg.com/material-components-web/-/material-components-web-0.36.1.tgz#ba4de95b5ddad0beb3d4786dbcb9748395e3008d"
+material-components-web@0.37.x:
+  version "0.37.1"
+  resolved "https://registry.yarnpkg.com/material-components-web/-/material-components-web-0.37.1.tgz#d3c0e3e078bf97d69d1f45b533a38dc8d476bc7d"
   dependencies:
     "@material/animation" "^0.34.0"
     "@material/auto-init" "^0.35.0"
     "@material/base" "^0.35.0"
-    "@material/button" "^0.36.1"
-    "@material/card" "^0.36.1"
-    "@material/checkbox" "^0.36.1"
-    "@material/chips" "^0.36.1"
-    "@material/dialog" "^0.36.1"
-    "@material/drawer" "^0.36.1"
+    "@material/button" "^0.37.1"
+    "@material/card" "^0.37.1"
+    "@material/checkbox" "^0.37.1"
+    "@material/chips" "^0.37.1"
+    "@material/dialog" "^0.37.1"
+    "@material/drawer" "^0.37.1"
     "@material/elevation" "^0.36.1"
-    "@material/fab" "^0.36.1"
-    "@material/floating-label" "^0.36.0"
-    "@material/form-field" "^0.36.0"
-    "@material/grid-list" "^0.36.0"
-    "@material/icon-button" "^0.36.0"
-    "@material/icon-toggle" "^0.36.0"
-    "@material/image-list" "^0.35.0"
+    "@material/fab" "^0.37.1"
+    "@material/floating-label" "^0.37.1"
+    "@material/form-field" "^0.37.1"
+    "@material/grid-list" "^0.37.1"
+    "@material/icon-button" "^0.37.1"
+    "@material/icon-toggle" "^0.37.1"
+    "@material/image-list" "^0.37.1"
     "@material/layout-grid" "^0.34.0"
     "@material/line-ripple" "^0.35.0"
     "@material/linear-progress" "^0.35.0"
-    "@material/list" "^0.36.0"
-    "@material/menu" "^0.36.1"
-    "@material/notched-outline" "^0.35.0"
-    "@material/radio" "^0.36.0"
-    "@material/ripple" "^0.36.0"
+    "@material/list" "^0.37.1"
+    "@material/menu" "^0.37.1"
+    "@material/notched-outline" "^0.37.1"
+    "@material/radio" "^0.37.1"
+    "@material/ripple" "^0.37.1"
     "@material/rtl" "^0.36.0"
-    "@material/select" "^0.36.0"
-    "@material/selection-control" "^0.36.0"
+    "@material/select" "^0.37.1"
+    "@material/selection-control" "^0.37.1"
     "@material/shape" "^0.35.0"
     "@material/slider" "^0.36.0"
-    "@material/snackbar" "^0.36.0"
+    "@material/snackbar" "^0.37.1"
     "@material/switch" "^0.36.1"
-    "@material/tabs" "^0.36.0"
-    "@material/textfield" "^0.36.1"
+    "@material/tabs" "^0.37.1"
+    "@material/textfield" "^0.37.1"
     "@material/theme" "^0.35.0"
-    "@material/toolbar" "^0.36.1"
-    "@material/top-app-bar" "^0.36.1"
-    "@material/typography" "^0.35.0"
-
-math-expression-evaluator@^1.2.14:
-  version "1.2.17"
-  resolved "https://registry.yarnpkg.com/math-expression-evaluator/-/math-expression-evaluator-1.2.17.tgz#de819fdbcd84dccd8fae59c6aeb79615b9d266ac"
+    "@material/toolbar" "^0.37.1"
+    "@material/top-app-bar" "^0.37.1"
+    "@material/typography" "^0.37.1"
 
 md5.js@^1.3.4:
   version "1.3.4"
@@ -4600,6 +4651,12 @@ node-pre-gyp@^0.9.0:
     semver "^5.3.0"
     tar "^4"
 
+node-releases@^1.0.0-alpha.10:
+  version "1.0.0-alpha.10"
+  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.0.0-alpha.10.tgz#61c8d5f9b5b2e05d84eba941d05b6f5202f68a2a"
+  dependencies:
+    semver "^5.3.0"
+
 node-sass@^4.9.2:
   version "4.9.2"
   resolved "https://registry.yarnpkg.com/node-sass/-/node-sass-4.9.2.tgz#5e63fe6bd0f2ae3ac9d6c14ede8620e2b8bdb437"
@@ -4676,14 +4733,9 @@ normalize-url@2.0.1:
     query-string "^5.0.1"
     sort-keys "^2.0.0"
 
-normalize-url@^1.4.0:
-  version "1.9.1"
-  resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-1.9.1.tgz#2cc0d66b31ea23036458436e3620d85954c66c3c"
-  dependencies:
-    object-assign "^4.0.1"
-    prepend-http "^1.0.0"
-    query-string "^4.1.0"
-    sort-keys "^1.0.0"
+normalize-url@^3.0.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-3.2.0.tgz#98d0948afc82829f374320f405fe9ca55a5f8567"
 
 npm-bundled@^1.0.1:
   version "1.0.3"
@@ -4822,11 +4874,11 @@ opn@^5.1.0:
   dependencies:
     is-wsl "^1.1.0"
 
-optimize-css-assets-webpack-plugin@^4.0.3:
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/optimize-css-assets-webpack-plugin/-/optimize-css-assets-webpack-plugin-4.0.3.tgz#4f714e276b279700892c4a6202b7e22812d6f683"
+optimize-css-assets-webpack-plugin@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/optimize-css-assets-webpack-plugin/-/optimize-css-assets-webpack-plugin-5.0.0.tgz#8c9adf00e841871f627f82a8097a4f9fcc314de4"
   dependencies:
-    cssnano "^3.10.0"
+    cssnano "^4.0.2"
     last-call-webpack-plugin "^3.0.0"
 
 os-browserify@^0.3.0:
@@ -4891,11 +4943,23 @@ p-limit@^1.1.0:
   dependencies:
     p-try "^1.0.0"
 
+p-limit@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/p-limit/-/p-limit-2.0.0.tgz#e624ed54ee8c460a778b3c9f3670496ff8a57aec"
+  dependencies:
+    p-try "^2.0.0"
+
 p-locate@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/p-locate/-/p-locate-2.0.0.tgz#20a0103b222a70c8fd39cc2e580680f3dde5ec43"
   dependencies:
     p-limit "^1.1.0"
+
+p-locate@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/p-locate/-/p-locate-3.0.0.tgz#322d69a05c0264b25997d9f40cd8a891ab0064a4"
+  dependencies:
+    p-limit "^2.0.0"
 
 p-reduce@^1.0.0:
   version "1.0.0"
@@ -4917,6 +4981,10 @@ p-timeout@^2.0.1:
 p-try@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/p-try/-/p-try-1.0.0.tgz#cbc79cdbaf8fd4228e13f621f2b1a237c1b207b3"
+
+p-try@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/p-try/-/p-try-2.0.0.tgz#85080bb87c64688fa47996fe8f7dfbe8211760b1"
 
 package-json@^2.0.0:
   version "2.4.0"
@@ -5109,19 +5177,20 @@ postcss-attribute-case-insensitive@^3.0.1:
     postcss "^6.0.23"
     postcss-selector-parser "^4.0.0"
 
-postcss-calc@^5.2.0:
-  version "5.3.1"
-  resolved "https://registry.yarnpkg.com/postcss-calc/-/postcss-calc-5.3.1.tgz#77bae7ca928ad85716e2fda42f261bf7c1d65b5e"
+postcss-calc@^6.0.0:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/postcss-calc/-/postcss-calc-6.0.1.tgz#3d24171bbf6e7629d422a436ebfe6dd9511f4330"
   dependencies:
-    postcss "^5.0.2"
-    postcss-message-helpers "^2.0.0"
-    reduce-css-calc "^1.2.6"
+    css-unit-converter "^1.1.1"
+    postcss "^6.0.0"
+    postcss-selector-parser "^2.2.2"
+    reduce-css-calc "^2.0.0"
 
-postcss-color-functional-notation@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/postcss-color-functional-notation/-/postcss-color-functional-notation-1.0.1.tgz#a12fe1302fa63935e440859c9d53730023c0eadd"
+postcss-color-functional-notation@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/postcss-color-functional-notation/-/postcss-color-functional-notation-1.0.2.tgz#836fbc5e88a4ebd958ba6a3f9e2dad7792166c9f"
   dependencies:
-    postcss "^6.0.22"
+    postcss "^6.0.23"
     postcss-values-parser "^1.5.0"
 
 postcss-color-hex-alpha@^3.0.0:
@@ -5132,13 +5201,13 @@ postcss-color-hex-alpha@^3.0.0:
     postcss "^6.0.1"
     postcss-message-helpers "^2.0.0"
 
-postcss-color-mod-function@^2.4.2:
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/postcss-color-mod-function/-/postcss-color-mod-function-2.4.2.tgz#bdf408f152bc3201517a4c38b7eb5cd2996114fb"
+postcss-color-mod-function@^2.4.3:
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/postcss-color-mod-function/-/postcss-color-mod-function-2.4.3.tgz#14a97f5b17a5f19396e9dea7ffcb5be732592baf"
   dependencies:
     "@csstools/convert-colors" "^1.4.0"
-    postcss "^6.0.19"
-    postcss-values-parser "^1.3.2"
+    postcss "^6.0.23"
+    postcss-values-parser "^1.5.0"
 
 postcss-color-rebeccapurple@^3.1.0:
   version "3.1.0"
@@ -5147,20 +5216,22 @@ postcss-color-rebeccapurple@^3.1.0:
     postcss "^6.0.22"
     postcss-values-parser "^1.5.0"
 
-postcss-colormin@^2.1.8:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/postcss-colormin/-/postcss-colormin-2.2.2.tgz#6631417d5f0e909a3d7ec26b24c8a8d1e4f96e4b"
+postcss-colormin@^4.0.0:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/postcss-colormin/-/postcss-colormin-4.0.1.tgz#6f1c18a0155bc69613f2ff13843e2e4ae8ff0bbe"
   dependencies:
-    colormin "^1.0.5"
-    postcss "^5.0.13"
-    postcss-value-parser "^3.2.3"
+    browserslist "^4.0.0"
+    color "^3.0.0"
+    has "^1.0.0"
+    postcss "^6.0.0"
+    postcss-value-parser "^3.0.0"
 
-postcss-convert-values@^2.3.4:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/postcss-convert-values/-/postcss-convert-values-2.6.1.tgz#bbd8593c5c1fd2e3d1c322bb925dcae8dae4d62d"
+postcss-convert-values@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-convert-values/-/postcss-convert-values-4.0.0.tgz#77d77d9aed1dc4e6956e651cc349d53305876f62"
   dependencies:
-    postcss "^5.0.11"
-    postcss-value-parser "^3.1.2"
+    postcss "^6.0.0"
+    postcss-value-parser "^3.0.0"
 
 postcss-custom-media@^6.0.0:
   version "6.0.0"
@@ -5189,36 +5260,29 @@ postcss-dir-pseudo-class@^4.0.0:
     postcss "^6.0.22"
     postcss-selector-parser "^4.0.0"
 
-postcss-discard-comments@^2.0.4:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/postcss-discard-comments/-/postcss-discard-comments-2.0.4.tgz#befe89fafd5b3dace5ccce51b76b81514be00e3d"
+postcss-discard-comments@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-discard-comments/-/postcss-discard-comments-4.0.0.tgz#9684a299e76b3e93263ef8fd2adbf1a1c08fd88d"
   dependencies:
-    postcss "^5.0.14"
+    postcss "^6.0.0"
 
-postcss-discard-duplicates@^2.0.1:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/postcss-discard-duplicates/-/postcss-discard-duplicates-2.1.0.tgz#b9abf27b88ac188158a5eb12abcae20263b91932"
+postcss-discard-duplicates@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-discard-duplicates/-/postcss-discard-duplicates-4.0.0.tgz#42f3c267f85fa909e042c35767ecfd65cb2bd72c"
   dependencies:
-    postcss "^5.0.4"
+    postcss "^6.0.0"
 
-postcss-discard-empty@^2.0.1:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/postcss-discard-empty/-/postcss-discard-empty-2.1.0.tgz#d2b4bd9d5ced5ebd8dcade7640c7d7cd7f4f92b5"
+postcss-discard-empty@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-discard-empty/-/postcss-discard-empty-4.0.0.tgz#55e18a59c74128e38c7d2804bcfa4056611fb97f"
   dependencies:
-    postcss "^5.0.14"
+    postcss "^6.0.0"
 
-postcss-discard-overridden@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/postcss-discard-overridden/-/postcss-discard-overridden-0.1.1.tgz#8b1eaf554f686fb288cd874c55667b0aa3668d58"
+postcss-discard-overridden@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-discard-overridden/-/postcss-discard-overridden-4.0.0.tgz#4a0bf85978784cf1f81ed2c1c1fd9d964a1da1fa"
   dependencies:
-    postcss "^5.0.16"
-
-postcss-discard-unused@^2.2.1:
-  version "2.2.3"
-  resolved "https://registry.yarnpkg.com/postcss-discard-unused/-/postcss-discard-unused-2.2.3.tgz#bce30b2cc591ffc634322b5fb3464b6d934f4433"
-  dependencies:
-    postcss "^5.0.14"
-    uniqs "^2.0.0"
+    postcss "^6.0.0"
 
 postcss-env-function@^1.0.0:
   version "1.0.0"
@@ -5226,13 +5290,6 @@ postcss-env-function@^1.0.0:
   dependencies:
     postcss "^6.0.22"
     postcss-values-parser "^1.5.0"
-
-postcss-filter-plugins@^2.0.0:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/postcss-filter-plugins/-/postcss-filter-plugins-2.0.2.tgz#6d85862534d735ac420e4a85806e1f5d4286d84c"
-  dependencies:
-    postcss "^5.0.4"
-    uniqid "^4.0.0"
 
 postcss-focus-visible@^3.0.0:
   version "3.0.0"
@@ -5302,12 +5359,12 @@ postcss-initial@^2.0.0:
     lodash.template "^4.2.4"
     postcss "^6.0.1"
 
-postcss-lab-function@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/postcss-lab-function/-/postcss-lab-function-1.0.1.tgz#f493a93edcd8379de716bc3aab156626c317ce3c"
+postcss-lab-function@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/postcss-lab-function/-/postcss-lab-function-1.1.0.tgz#1965cd4cfb380601129f29c59797a0df13463f48"
   dependencies:
     "@csstools/convert-colors" "^1.4.0"
-    postcss "^6.0.22"
+    postcss "^6.0.23"
     postcss-values-parser "^1.5.0"
 
 postcss-load-config@^2.0.0:
@@ -5338,66 +5395,64 @@ postcss-media-minmax@^3.0.0:
   dependencies:
     postcss "^6.0.1"
 
-postcss-merge-idents@^2.1.5:
-  version "2.1.7"
-  resolved "https://registry.yarnpkg.com/postcss-merge-idents/-/postcss-merge-idents-2.1.7.tgz#4c5530313c08e1d5b3bbf3d2bbc747e278eea270"
+postcss-merge-longhand@^4.0.0:
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/postcss-merge-longhand/-/postcss-merge-longhand-4.0.4.tgz#bffc7c6ffa146591c993a0bb8373d65f9a06d4d0"
   dependencies:
-    has "^1.0.1"
-    postcss "^5.0.10"
-    postcss-value-parser "^3.1.1"
+    css-color-names "0.0.4"
+    postcss "^6.0.0"
+    postcss-value-parser "^3.0.0"
+    stylehacks "^4.0.0"
 
-postcss-merge-longhand@^2.0.1:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/postcss-merge-longhand/-/postcss-merge-longhand-2.0.2.tgz#23d90cd127b0a77994915332739034a1a4f3d658"
+postcss-merge-rules@^4.0.0:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/postcss-merge-rules/-/postcss-merge-rules-4.0.1.tgz#430fd59b3f2ed2e8afcd0b31278eda39854abb10"
   dependencies:
-    postcss "^5.0.4"
-
-postcss-merge-rules@^2.0.3:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/postcss-merge-rules/-/postcss-merge-rules-2.1.2.tgz#d1df5dfaa7b1acc3be553f0e9e10e87c61b5f721"
-  dependencies:
-    browserslist "^1.5.2"
-    caniuse-api "^1.5.2"
-    postcss "^5.0.4"
-    postcss-selector-parser "^2.2.2"
+    browserslist "^4.0.0"
+    caniuse-api "^3.0.0"
+    cssnano-util-same-parent "^4.0.0"
+    postcss "^6.0.0"
+    postcss-selector-parser "^3.0.0"
     vendors "^1.0.0"
 
 postcss-message-helpers@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/postcss-message-helpers/-/postcss-message-helpers-2.0.0.tgz#a4f2f4fab6e4fe002f0aed000478cdf52f9ba60e"
 
-postcss-minify-font-values@^1.0.2:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/postcss-minify-font-values/-/postcss-minify-font-values-1.0.5.tgz#4b58edb56641eba7c8474ab3526cafd7bbdecb69"
+postcss-minify-font-values@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-minify-font-values/-/postcss-minify-font-values-4.0.0.tgz#4cc33d283d6a81759036e757ef981d92cbd85bed"
   dependencies:
-    object-assign "^4.0.1"
-    postcss "^5.0.4"
-    postcss-value-parser "^3.0.2"
+    postcss "^6.0.0"
+    postcss-value-parser "^3.0.0"
 
-postcss-minify-gradients@^1.0.1:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/postcss-minify-gradients/-/postcss-minify-gradients-1.0.5.tgz#5dbda11373703f83cfb4a3ea3881d8d75ff5e6e1"
+postcss-minify-gradients@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-minify-gradients/-/postcss-minify-gradients-4.0.0.tgz#3fc3916439d27a9bb8066db7cdad801650eb090e"
   dependencies:
-    postcss "^5.0.12"
-    postcss-value-parser "^3.3.0"
+    cssnano-util-get-arguments "^4.0.0"
+    is-color-stop "^1.0.0"
+    postcss "^6.0.0"
+    postcss-value-parser "^3.0.0"
 
-postcss-minify-params@^1.0.4:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/postcss-minify-params/-/postcss-minify-params-1.2.2.tgz#ad2ce071373b943b3d930a3fa59a358c28d6f1f3"
+postcss-minify-params@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-minify-params/-/postcss-minify-params-4.0.0.tgz#05e9166ee48c05af651989ce84d39c1b4d790674"
   dependencies:
-    alphanum-sort "^1.0.1"
-    postcss "^5.0.2"
-    postcss-value-parser "^3.0.2"
+    alphanum-sort "^1.0.0"
+    cssnano-util-get-arguments "^4.0.0"
+    postcss "^6.0.0"
+    postcss-value-parser "^3.0.0"
     uniqs "^2.0.0"
 
-postcss-minify-selectors@^2.0.4:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/postcss-minify-selectors/-/postcss-minify-selectors-2.1.1.tgz#b2c6a98c0072cf91b932d1a496508114311735bf"
+postcss-minify-selectors@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-minify-selectors/-/postcss-minify-selectors-4.0.0.tgz#b1e9f6c463416d3fcdcb26e7b785d95f61578aad"
   dependencies:
-    alphanum-sort "^1.0.2"
-    has "^1.0.1"
-    postcss "^5.0.14"
-    postcss-selector-parser "^2.0.0"
+    alphanum-sort "^1.0.0"
+    has "^1.0.0"
+    postcss "^6.0.0"
+    postcss-selector-parser "^3.0.0"
 
 postcss-modules-extract-imports@^1.2.0:
   version "1.2.0"
@@ -5432,27 +5487,84 @@ postcss-nesting@^6.0.0:
   dependencies:
     postcss "^6.0.22"
 
-postcss-normalize-charset@^1.1.0:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/postcss-normalize-charset/-/postcss-normalize-charset-1.1.1.tgz#ef9ee71212d7fe759c78ed162f61ed62b5cb93f1"
+postcss-normalize-charset@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-normalize-charset/-/postcss-normalize-charset-4.0.0.tgz#24527292702d5e8129eafa3d1de49ed51a6ab730"
   dependencies:
-    postcss "^5.0.5"
+    postcss "^6.0.0"
 
-postcss-normalize-url@^3.0.7:
-  version "3.0.8"
-  resolved "https://registry.yarnpkg.com/postcss-normalize-url/-/postcss-normalize-url-3.0.8.tgz#108f74b3f2fcdaf891a2ffa3ea4592279fc78222"
+postcss-normalize-display-values@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-normalize-display-values/-/postcss-normalize-display-values-4.0.0.tgz#950e0c7be3445770a160fffd6b6644c3c0cd8f89"
+  dependencies:
+    cssnano-util-get-match "^4.0.0"
+    postcss "^6.0.0"
+    postcss-value-parser "^3.0.0"
+
+postcss-normalize-positions@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-normalize-positions/-/postcss-normalize-positions-4.0.0.tgz#ee9343ab981b822c63ab72615ecccd08564445a3"
+  dependencies:
+    cssnano-util-get-arguments "^4.0.0"
+    has "^1.0.0"
+    postcss "^6.0.0"
+    postcss-value-parser "^3.0.0"
+
+postcss-normalize-repeat-style@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-normalize-repeat-style/-/postcss-normalize-repeat-style-4.0.0.tgz#b711c592cf16faf9ff575e42fa100b6799083eff"
+  dependencies:
+    cssnano-util-get-arguments "^4.0.0"
+    cssnano-util-get-match "^4.0.0"
+    postcss "^6.0.0"
+    postcss-value-parser "^3.0.0"
+
+postcss-normalize-string@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-normalize-string/-/postcss-normalize-string-4.0.0.tgz#718cb6d30a6fac6ac6a830e32c06c07dbc66fe5d"
+  dependencies:
+    has "^1.0.0"
+    postcss "^6.0.0"
+    postcss-value-parser "^3.0.0"
+
+postcss-normalize-timing-functions@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-normalize-timing-functions/-/postcss-normalize-timing-functions-4.0.0.tgz#0351f29886aa981d43d91b2c2bd1aea6d0af6d23"
+  dependencies:
+    cssnano-util-get-match "^4.0.0"
+    postcss "^6.0.0"
+    postcss-value-parser "^3.0.0"
+
+postcss-normalize-unicode@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-normalize-unicode/-/postcss-normalize-unicode-4.0.0.tgz#5acd5d47baea5d17674b2ccc4ae5166fa88cdf97"
+  dependencies:
+    postcss "^6.0.0"
+    postcss-value-parser "^3.0.0"
+
+postcss-normalize-url@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-normalize-url/-/postcss-normalize-url-4.0.0.tgz#b7a9c8ad26cf26694c146eb2d68bd0cf49956f0d"
   dependencies:
     is-absolute-url "^2.0.0"
-    normalize-url "^1.4.0"
-    postcss "^5.0.14"
-    postcss-value-parser "^3.2.3"
+    normalize-url "^3.0.0"
+    postcss "^6.0.0"
+    postcss-value-parser "^3.0.0"
 
-postcss-ordered-values@^2.1.0:
-  version "2.2.3"
-  resolved "https://registry.yarnpkg.com/postcss-ordered-values/-/postcss-ordered-values-2.2.3.tgz#eec6c2a67b6c412a8db2042e77fe8da43f95c11d"
+postcss-normalize-whitespace@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-normalize-whitespace/-/postcss-normalize-whitespace-4.0.0.tgz#1da7e76b10ae63c11827fa04fc3bb4a1efe99cc0"
   dependencies:
-    postcss "^5.0.4"
-    postcss-value-parser "^3.0.1"
+    postcss "^6.0.0"
+    postcss-value-parser "^3.0.0"
+
+postcss-ordered-values@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-ordered-values/-/postcss-ordered-values-4.0.0.tgz#58b40c74f72e022eb34152c12e4b0f9354482fc2"
+  dependencies:
+    cssnano-util-get-arguments "^4.0.0"
+    postcss "^6.0.0"
+    postcss-value-parser "^3.0.0"
 
 postcss-overflow-shorthand@^1.0.1:
   version "1.0.1"
@@ -5473,19 +5585,19 @@ postcss-place@^3.0.1:
     postcss "^6.0.22"
     postcss-values-parser "^1.5.0"
 
-postcss-preset-env@^5.2.1:
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/postcss-preset-env/-/postcss-preset-env-5.2.1.tgz#298fd5a7a6d323e025bd554fc31fe5e1003875c8"
+postcss-preset-env@^5.3.0:
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/postcss-preset-env/-/postcss-preset-env-5.3.0.tgz#568939a1c03e950ced2bdfe32822c316ac7d0b7f"
   dependencies:
-    autoprefixer "^8.6.3"
+    autoprefixer "^8.6.5"
     browserslist "^3.2.8"
-    caniuse-lite "^1.0.30000859"
+    caniuse-lite "^1.0.30000865"
     cssdb "^3.1.0"
     postcss "^6.0.23"
     postcss-attribute-case-insensitive "^3.0.1"
-    postcss-color-functional-notation "^1.0.1"
+    postcss-color-functional-notation "^1.0.2"
     postcss-color-hex-alpha "^3.0.0"
-    postcss-color-mod-function "^2.4.2"
+    postcss-color-mod-function "^2.4.3"
     postcss-color-rebeccapurple "^3.1.0"
     postcss-custom-media "^6.0.0"
     postcss-custom-properties "^7.0.0"
@@ -5499,7 +5611,7 @@ postcss-preset-env@^5.2.1:
     postcss-gap-properties "^1.0.0"
     postcss-image-set-function "^2.0.0"
     postcss-initial "^2.0.0"
-    postcss-lab-function "^1.0.1"
+    postcss-lab-function "^1.1.0"
     postcss-logical "^1.1.1"
     postcss-media-minmax "^3.0.0"
     postcss-nesting "^6.0.0"
@@ -5518,26 +5630,23 @@ postcss-pseudo-class-any-link@^5.0.0:
     postcss "^6.0.22"
     postcss-selector-parser "^4.0.0"
 
-postcss-reduce-idents@^2.2.2:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/postcss-reduce-idents/-/postcss-reduce-idents-2.4.0.tgz#c2c6d20cc958284f6abfbe63f7609bf409059ad3"
+postcss-reduce-initial@^4.0.0:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/postcss-reduce-initial/-/postcss-reduce-initial-4.0.1.tgz#f2d58f50cea2b0c5dc1278d6ea5ed0ff5829c293"
   dependencies:
-    postcss "^5.0.4"
-    postcss-value-parser "^3.0.2"
+    browserslist "^4.0.0"
+    caniuse-api "^3.0.0"
+    has "^1.0.0"
+    postcss "^6.0.0"
 
-postcss-reduce-initial@^1.0.0:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/postcss-reduce-initial/-/postcss-reduce-initial-1.0.1.tgz#68f80695f045d08263a879ad240df8dd64f644ea"
+postcss-reduce-transforms@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-reduce-transforms/-/postcss-reduce-transforms-4.0.0.tgz#f645fc7440c35274f40de8104e14ad7163edf188"
   dependencies:
-    postcss "^5.0.4"
-
-postcss-reduce-transforms@^1.0.3:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/postcss-reduce-transforms/-/postcss-reduce-transforms-1.0.4.tgz#ff76f4d8212437b31c298a42d2e1444025771ae1"
-  dependencies:
-    has "^1.0.1"
-    postcss "^5.0.8"
-    postcss-value-parser "^3.0.1"
+    cssnano-util-get-match "^4.0.0"
+    has "^1.0.0"
+    postcss "^6.0.0"
+    postcss-value-parser "^3.0.0"
 
 postcss-replace-overflow-wrap@^2.0.0:
   version "2.0.0"
@@ -5545,11 +5654,11 @@ postcss-replace-overflow-wrap@^2.0.0:
   dependencies:
     postcss "^6.0.1"
 
-postcss-scss@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/postcss-scss/-/postcss-scss-1.0.6.tgz#ab903f3bb20161bc177896462293a53d4bff5f7a"
+postcss-scss@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-scss/-/postcss-scss-2.0.0.tgz#248b0a28af77ea7b32b1011aba0f738bda27dea1"
   dependencies:
-    postcss "^6.0.23"
+    postcss "^7.0.0"
 
 postcss-selector-matches@^3.0.0, postcss-selector-matches@^3.0.1:
   version "3.0.1"
@@ -5565,11 +5674,19 @@ postcss-selector-not@^3.0.1:
     balanced-match "^0.4.2"
     postcss "^6.0.1"
 
-postcss-selector-parser@^2.0.0, postcss-selector-parser@^2.2.2:
+postcss-selector-parser@^2.2.2:
   version "2.2.3"
   resolved "https://registry.yarnpkg.com/postcss-selector-parser/-/postcss-selector-parser-2.2.3.tgz#f9437788606c3c9acee16ffe8d8b16297f27bb90"
   dependencies:
     flatten "^1.0.2"
+    indexes-of "^1.0.1"
+    uniq "^1.0.1"
+
+postcss-selector-parser@^3.0.0:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/postcss-selector-parser/-/postcss-selector-parser-3.1.1.tgz#4f875f4afb0c96573d5cf4d74011aee250a7e865"
+  dependencies:
+    dot-prop "^4.1.1"
     indexes-of "^1.0.1"
     uniq "^1.0.1"
 
@@ -5581,28 +5698,28 @@ postcss-selector-parser@^4.0.0:
     indexes-of "^1.0.1"
     uniq "^1.0.1"
 
-postcss-svgo@^2.1.1:
-  version "2.1.6"
-  resolved "https://registry.yarnpkg.com/postcss-svgo/-/postcss-svgo-2.1.6.tgz#b6df18aa613b666e133f08adb5219c2684ac108d"
+postcss-svgo@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-svgo/-/postcss-svgo-4.0.0.tgz#c0bbad02520fc636c9d78b0e8403e2e515c32285"
   dependencies:
-    is-svg "^2.0.0"
-    postcss "^5.0.14"
-    postcss-value-parser "^3.2.3"
-    svgo "^0.7.0"
+    is-svg "^3.0.0"
+    postcss "^6.0.0"
+    postcss-value-parser "^3.0.0"
+    svgo "^1.0.0"
 
-postcss-unique-selectors@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/postcss-unique-selectors/-/postcss-unique-selectors-2.0.2.tgz#981d57d29ddcb33e7b1dfe1fd43b8649f933ca1d"
+postcss-unique-selectors@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-unique-selectors/-/postcss-unique-selectors-4.0.0.tgz#04c1e9764c75874261303402c41f0e9769fc5501"
   dependencies:
-    alphanum-sort "^1.0.1"
-    postcss "^5.0.4"
+    alphanum-sort "^1.0.0"
+    postcss "^6.0.0"
     uniqs "^2.0.0"
 
-postcss-value-parser@^3.0.1, postcss-value-parser@^3.0.2, postcss-value-parser@^3.1.1, postcss-value-parser@^3.1.2, postcss-value-parser@^3.2.3, postcss-value-parser@^3.3.0:
+postcss-value-parser@^3.0.0, postcss-value-parser@^3.2.3, postcss-value-parser@^3.3.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-3.3.0.tgz#87f38f9f18f774a4ab4c8a232f5c5ce8872a9d15"
 
-postcss-values-parser@^1.3.2, postcss-values-parser@^1.5.0:
+postcss-values-parser@^1.5.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/postcss-values-parser/-/postcss-values-parser-1.5.0.tgz#5d9fa63e2bcb0179ce48f3235303765eb89f3047"
   dependencies:
@@ -5610,24 +5727,7 @@ postcss-values-parser@^1.3.2, postcss-values-parser@^1.5.0:
     indexes-of "^1.0.1"
     uniq "^1.0.1"
 
-postcss-zindex@^2.0.1:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/postcss-zindex/-/postcss-zindex-2.2.0.tgz#d2109ddc055b91af67fc4cb3b025946639d2af22"
-  dependencies:
-    has "^1.0.1"
-    postcss "^5.0.4"
-    uniqs "^2.0.0"
-
-postcss@^5.0.10, postcss@^5.0.11, postcss@^5.0.12, postcss@^5.0.13, postcss@^5.0.14, postcss@^5.0.16, postcss@^5.0.2, postcss@^5.0.4, postcss@^5.0.5, postcss@^5.0.8, postcss@^5.2.16:
-  version "5.2.18"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-5.2.18.tgz#badfa1497d46244f6390f58b319830d9107853c5"
-  dependencies:
-    chalk "^1.1.3"
-    js-base64 "^2.1.9"
-    source-map "^0.5.6"
-    supports-color "^3.2.3"
-
-postcss@^6.0, postcss@^6.0.0, postcss@^6.0.1, postcss@^6.0.14, postcss@^6.0.16, postcss@^6.0.17, postcss@^6.0.18, postcss@^6.0.19, postcss@^6.0.20, postcss@^6.0.21, postcss@^6.0.22:
+postcss@^6.0, postcss@^6.0.0, postcss@^6.0.1, postcss@^6.0.14, postcss@^6.0.16, postcss@^6.0.17, postcss@^6.0.18, postcss@^6.0.20, postcss@^6.0.21, postcss@^6.0.22:
   version "6.0.22"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-6.0.22.tgz#e23b78314905c3b90cbd61702121e7a78848f2a3"
   dependencies:
@@ -5643,7 +5743,15 @@ postcss@^6.0.23:
     source-map "^0.6.1"
     supports-color "^5.4.0"
 
-prepend-http@^1.0.0, prepend-http@^1.0.1:
+postcss@^7.0.0, postcss@^7.0.2:
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.2.tgz#7b5a109de356804e27f95a960bef0e4d5bc9bb18"
+  dependencies:
+    chalk "^2.4.1"
+    source-map "^0.6.1"
+    supports-color "^5.4.0"
+
+prepend-http@^1.0.1:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-1.0.4.tgz#d4f4562b0ce3696e41ac52d0e002e57a635dc6dc"
 
@@ -5786,13 +5894,6 @@ qs@6.5.1:
 qs@~6.5.1:
   version "6.5.2"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
-
-query-string@^4.1.0:
-  version "4.3.4"
-  resolved "https://registry.yarnpkg.com/query-string/-/query-string-4.3.4.tgz#bbb693b9ca915c232515b228b1a02b609043dbeb"
-  dependencies:
-    object-assign "^4.1.0"
-    strict-uri-encode "^1.0.0"
 
 query-string@^5.0.1:
   version "5.1.1"
@@ -6055,19 +6156,12 @@ redent@^2.0.0:
     indent-string "^3.0.0"
     strip-indent "^2.0.0"
 
-reduce-css-calc@^1.2.6:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/reduce-css-calc/-/reduce-css-calc-1.3.0.tgz#747c914e049614a4c9cfbba629871ad1d2927716"
+reduce-css-calc@^2.0.0:
+  version "2.1.4"
+  resolved "https://registry.yarnpkg.com/reduce-css-calc/-/reduce-css-calc-2.1.4.tgz#c20e9cda8445ad73d4ff4bea960c6f8353791708"
   dependencies:
-    balanced-match "^0.4.2"
-    math-expression-evaluator "^1.2.14"
-    reduce-function-call "^1.0.1"
-
-reduce-function-call@^1.0.1:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/reduce-function-call/-/reduce-function-call-1.0.2.tgz#5a200bf92e0e37751752fe45b0ab330fd4b6be99"
-  dependencies:
-    balanced-match "^0.4.2"
+    css-unit-converter "^1.1.1"
+    postcss-value-parser "^3.3.0"
 
 regenerate@^1.2.1:
   version "1.3.3"
@@ -6263,6 +6357,14 @@ ret@~0.1.10:
   version "0.1.15"
   resolved "https://registry.yarnpkg.com/ret/-/ret-0.1.15.tgz#b8a4825d5bdb1fc3f6f53c2bc33f81388681c7bc"
 
+rgb-regex@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/rgb-regex/-/rgb-regex-1.0.1.tgz#c0e0d6882df0e23be254a475e8edd41915feaeb1"
+
+rgba-regex@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/rgba-regex/-/rgba-regex-1.0.0.tgz#43374e2e2ca0968b0ef1523460b7d730ff22eeb3"
+
 rimraf@2, rimraf@^2.5.4, rimraf@^2.6.1, rimraf@^2.6.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.2.tgz#2ed8150d24a16ea8651e6d6ef0f47c4158ce7a36"
@@ -6276,13 +6378,13 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     hash-base "^3.0.0"
     inherits "^2.0.1"
 
-rmwc@^1.7.6:
-  version "1.7.6"
-  resolved "https://registry.yarnpkg.com/rmwc/-/rmwc-1.7.6.tgz#10f383f2adcdab7635025d02b538a8221335483c"
+rmwc@^1.8.3:
+  version "1.8.3"
+  resolved "https://registry.yarnpkg.com/rmwc/-/rmwc-1.8.3.tgz#9d56244e27348e7fecb068711304d2ada8398551"
   dependencies:
     classnames "^2.2.5"
     hyperform "^0.9.9"
-    material-components-web "0.36.1"
+    material-components-web "0.37.x"
     mutation-observer "^1.0.3"
     prop-types "^15.6.1"
 
@@ -6335,17 +6437,18 @@ sass-graph@^2.2.4:
     scss-tokenizer "^0.2.3"
     yargs "^7.0.0"
 
-sass-loader@^7.0.3:
-  version "7.0.3"
-  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-7.0.3.tgz#6ca10871a1cc7549f8143db5a9958242c4e4ca2a"
+sass-loader@^7.1.0:
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-7.1.0.tgz#16fd5138cb8b424bf8a759528a1972d72aad069d"
   dependencies:
     clone-deep "^2.0.1"
     loader-utils "^1.0.1"
     lodash.tail "^4.1.1"
     neo-async "^2.5.0"
     pify "^3.0.0"
+    semver "^5.5.0"
 
-sax@^1.2.4, sax@~1.2.1, sax@~1.2.4:
+sax@^1.2.4, sax@~1.2.4:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
 
@@ -6541,12 +6644,6 @@ sntp@2.x.x:
   resolved "https://registry.yarnpkg.com/sntp/-/sntp-2.1.0.tgz#2c6cec14fedc2222739caf9b5c3d85d1cc5a2cc8"
   dependencies:
     hoek "4.x.x"
-
-sort-keys@^1.0.0:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/sort-keys/-/sort-keys-1.1.2.tgz#441b6d4d346798f1b4e49e8920adfba0e543f9ad"
-  dependencies:
-    is-plain-obj "^1.0.0"
 
 sort-keys@^2.0.0:
   version "2.0.0"
@@ -6810,6 +6907,14 @@ style-loader@^0.21.0:
     loader-utils "^1.1.0"
     schema-utils "^0.4.5"
 
+stylehacks@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/stylehacks/-/stylehacks-4.0.0.tgz#64b323951c4a24e5fc7b2ec06c137bf32d155e8a"
+  dependencies:
+    browserslist "^4.0.0"
+    postcss "^6.0.0"
+    postcss-selector-parser "^3.0.0"
+
 supports-color@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-2.0.0.tgz#535d045ce6b6363fa40117084629995e9df324c7"
@@ -6826,19 +6931,7 @@ supports-color@^5.3.0, supports-color@^5.4.0:
   dependencies:
     has-flag "^3.0.0"
 
-svgo@^0.7.0:
-  version "0.7.2"
-  resolved "https://registry.yarnpkg.com/svgo/-/svgo-0.7.2.tgz#9f5772413952135c6fefbf40afe6a4faa88b4bb5"
-  dependencies:
-    coa "~1.0.1"
-    colors "~1.1.2"
-    csso "~2.3.1"
-    js-yaml "~3.7.0"
-    mkdirp "~0.5.1"
-    sax "~1.2.1"
-    whet.extend "~0.9.9"
-
-svgo@^1.0.3:
+svgo@^1.0.0, svgo@^1.0.3:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/svgo/-/svgo-1.0.5.tgz#7040364c062a0538abacff4401cea6a26a7a389a"
   dependencies:
@@ -6963,6 +7056,10 @@ timers-browserify@^2.0.4:
   resolved "https://registry.yarnpkg.com/timers-browserify/-/timers-browserify-2.0.10.tgz#1d28e3d2aadf1d5a5996c4e9f95601cd053480ae"
   dependencies:
     setimmediate "^1.0.4"
+
+timsort@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/timsort/-/timsort-0.3.0.tgz#405411a8e7e6339fe64db9a234de11dc31e02bd4"
 
 tmp@^0.0.33:
   version "0.0.33"
@@ -7130,12 +7227,6 @@ union-value@^1.0.0:
 uniq@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/uniq/-/uniq-1.0.1.tgz#b31c5ae8254844a3a8281541ce2b04b865a734ff"
-
-uniqid@^4.0.0:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/uniqid/-/uniqid-4.1.1.tgz#89220ddf6b751ae52b5f72484863528596bb84c1"
-  dependencies:
-    macaddress "^0.2.8"
 
 uniqs@^2.0.0:
   version "2.0.0"
@@ -7379,9 +7470,9 @@ webpack-bundle-analyzer@^2.13.1:
     opener "^1.4.3"
     ws "^4.0.0"
 
-webpack-cli@^3.0.4:
-  version "3.0.8"
-  resolved "https://registry.yarnpkg.com/webpack-cli/-/webpack-cli-3.0.8.tgz#90eddcf04a4bfc31aa8c0edc4c76785bc4f1ccd9"
+webpack-cli@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/webpack-cli/-/webpack-cli-3.1.0.tgz#d71a83687dcfeb758fdceeb0fe042f96bcf62994"
   dependencies:
     chalk "^2.4.1"
     cross-spawn "^6.0.5"
@@ -7393,7 +7484,7 @@ webpack-cli@^3.0.4:
     loader-utils "^1.1.0"
     supports-color "^5.4.0"
     v8-compile-cache "^2.0.0"
-    yargs "^11.1.0"
+    yargs "^12.0.1"
 
 webpack-dev-middleware@^3.0.0:
   version "3.1.3"
@@ -7472,9 +7563,9 @@ webpack-sources@^1.0.1, webpack-sources@^1.1.0:
     source-list-map "^2.0.0"
     source-map "~0.6.1"
 
-webpack@^4.16.0:
-  version "4.16.0"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-4.16.0.tgz#660dae90890e55b8ed17c6f9d17bebb01dab5b4c"
+webpack@^4.16.4:
+  version "4.16.4"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-4.16.4.tgz#6b020f76483bc66339164c296d89978aa100d37a"
   dependencies:
     "@webassemblyjs/ast" "1.5.13"
     "@webassemblyjs/helper-module-context" "1.5.13"
@@ -7487,7 +7578,7 @@ webpack@^4.16.0:
     ajv-keywords "^3.1.0"
     chrome-trace-event "^1.0.0"
     enhanced-resolve "^4.1.0"
-    eslint-scope "^3.7.1"
+    eslint-scope "^4.0.0"
     json-parse-better-errors "^1.0.2"
     loader-runner "^2.3.0"
     loader-utils "^1.1.0"
@@ -7521,10 +7612,6 @@ whatwg-fetch@>=0.10.0:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-2.0.4.tgz#dde6a5df315f9d39991aa17621853d720b85566f"
 
-whet.extend@~0.9.9:
-  version "0.9.9"
-  resolved "https://registry.yarnpkg.com/whet.extend/-/whet.extend-0.9.9.tgz#f877d5bf648c97e5aa542fadc16d6a259b9c11a1"
-
 which-module@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/which-module/-/which-module-1.0.0.tgz#bba63ca861948994ff307736089e3b96026c2a4f"
@@ -7557,21 +7644,21 @@ widest-line@^2.0.0:
   dependencies:
     string-width "^2.1.1"
 
-workbox-background-sync@^3.3.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/workbox-background-sync/-/workbox-background-sync-3.3.1.tgz#6778c174f3a31219f3de3e606b6974abd4ec30e7"
+workbox-background-sync@^3.4.1:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/workbox-background-sync/-/workbox-background-sync-3.4.1.tgz#6957a0ff622ee08b7af958d561cf2d4821edb640"
   dependencies:
-    workbox-core "^3.3.1"
+    workbox-core "^3.4.1"
 
-workbox-broadcast-cache-update@^3.3.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/workbox-broadcast-cache-update/-/workbox-broadcast-cache-update-3.3.1.tgz#d57099a29d0aea6d15dfc68e4f5b33628f39b43e"
+workbox-broadcast-cache-update@^3.4.1:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/workbox-broadcast-cache-update/-/workbox-broadcast-cache-update-3.4.1.tgz#9861cd2b6d874d41be26a34bc5bdd7a794d3badf"
   dependencies:
-    workbox-core "^3.3.1"
+    workbox-core "^3.4.1"
 
-workbox-build@^3.3.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/workbox-build/-/workbox-build-3.3.1.tgz#de465a62b31e1caa2465b6f1b04b4e5756337b21"
+workbox-build@^3.4.1:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/workbox-build/-/workbox-build-3.4.1.tgz#65af4c81b05dac6a1819c88b8a2a944ddf5cec04"
   dependencies:
     babel-runtime "^6.26.0"
     common-tags "^1.4.0"
@@ -7580,84 +7667,91 @@ workbox-build@^3.3.1:
     joi "^11.1.1"
     lodash.template "^4.4.0"
     pretty-bytes "^4.0.2"
-    workbox-background-sync "^3.3.1"
-    workbox-broadcast-cache-update "^3.3.1"
-    workbox-cache-expiration "^3.3.1"
-    workbox-cacheable-response "^3.3.1"
-    workbox-core "^3.3.1"
-    workbox-google-analytics "^3.3.1"
-    workbox-precaching "^3.3.1"
-    workbox-range-requests "^3.3.1"
-    workbox-routing "^3.3.1"
-    workbox-strategies "^3.3.1"
-    workbox-streams "^3.3.1"
-    workbox-sw "^3.3.1"
+    workbox-background-sync "^3.4.1"
+    workbox-broadcast-cache-update "^3.4.1"
+    workbox-cache-expiration "^3.4.1"
+    workbox-cacheable-response "^3.4.1"
+    workbox-core "^3.4.1"
+    workbox-google-analytics "^3.4.1"
+    workbox-navigation-preload "^3.4.1"
+    workbox-precaching "^3.4.1"
+    workbox-range-requests "^3.4.1"
+    workbox-routing "^3.4.1"
+    workbox-strategies "^3.4.1"
+    workbox-streams "^3.4.1"
+    workbox-sw "^3.4.1"
 
-workbox-cache-expiration@^3.3.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/workbox-cache-expiration/-/workbox-cache-expiration-3.3.1.tgz#f16a34caa17572b8b9332f2208aed3feea62c038"
+workbox-cache-expiration@^3.4.1:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/workbox-cache-expiration/-/workbox-cache-expiration-3.4.1.tgz#6c92317ca43be7e3030662ffbb3fd413c1689f18"
   dependencies:
-    workbox-core "^3.3.1"
+    workbox-core "^3.4.1"
 
-workbox-cacheable-response@^3.3.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/workbox-cacheable-response/-/workbox-cacheable-response-3.3.1.tgz#0a9564c4d765610c8ef0676ab0583c5949a26e4b"
+workbox-cacheable-response@^3.4.1:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/workbox-cacheable-response/-/workbox-cacheable-response-3.4.1.tgz#5517b4d5a86c2ad5d48000109335c5af23f47e40"
   dependencies:
-    workbox-core "^3.3.1"
+    workbox-core "^3.4.1"
 
-workbox-core@^3.3.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/workbox-core/-/workbox-core-3.3.1.tgz#4c7daeea08fe5646ea960b226572e899ddc7bc30"
+workbox-core@^3.4.1:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/workbox-core/-/workbox-core-3.4.1.tgz#dd6d8ad7398a0e6224c04b079841045af0c62e1f"
 
-workbox-google-analytics@^3.3.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/workbox-google-analytics/-/workbox-google-analytics-3.3.1.tgz#7a90b1e9193c32479e6d7acf07d547e95873887a"
+workbox-google-analytics@^3.4.1:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/workbox-google-analytics/-/workbox-google-analytics-3.4.1.tgz#98f407b7d157be68087e0f3edb432cba291fd614"
   dependencies:
-    workbox-background-sync "^3.3.1"
-    workbox-core "^3.3.1"
-    workbox-routing "^3.3.1"
-    workbox-strategies "^3.3.1"
+    workbox-background-sync "^3.4.1"
+    workbox-core "^3.4.1"
+    workbox-routing "^3.4.1"
+    workbox-strategies "^3.4.1"
 
-workbox-precaching@^3.3.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/workbox-precaching/-/workbox-precaching-3.3.1.tgz#2543caf903d46ef96159925bd5794bc5d58d0f3b"
+workbox-navigation-preload@^3.4.1:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/workbox-navigation-preload/-/workbox-navigation-preload-3.4.1.tgz#d3eb75239cc4eed9314b25e233da2ba282dcc84d"
   dependencies:
-    workbox-core "^3.3.1"
+    workbox-core "^3.4.1"
 
-workbox-range-requests@^3.3.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/workbox-range-requests/-/workbox-range-requests-3.3.1.tgz#ff51544f389e96c5c10938cd3a0117f2edfd5076"
+workbox-precaching@^3.4.1:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/workbox-precaching/-/workbox-precaching-3.4.1.tgz#2d4a3f6ae8d825e17ef51dddc51aae5ef2876fb5"
   dependencies:
-    workbox-core "^3.3.1"
+    workbox-core "^3.4.1"
 
-workbox-routing@^3.3.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/workbox-routing/-/workbox-routing-3.3.1.tgz#c11b9c64857096e2bc5225471a79d6b0aadd86a8"
+workbox-range-requests@^3.4.1:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/workbox-range-requests/-/workbox-range-requests-3.4.1.tgz#098474efecce49148ba925c75753e0ac96a8dd9a"
   dependencies:
-    workbox-core "^3.3.1"
+    workbox-core "^3.4.1"
 
-workbox-strategies@^3.3.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/workbox-strategies/-/workbox-strategies-3.3.1.tgz#2af87723661847269e14f2a0d8f1c6d9245d5e68"
+workbox-routing@^3.4.1:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/workbox-routing/-/workbox-routing-3.4.1.tgz#c5ac213480869da29a91a88db57b679ba7ddf58a"
   dependencies:
-    workbox-core "^3.3.1"
+    workbox-core "^3.4.1"
 
-workbox-streams@^3.3.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/workbox-streams/-/workbox-streams-3.3.1.tgz#fdde3f0f2b9f52832999a4b4a223ff06c28d125f"
+workbox-strategies@^3.4.1:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/workbox-strategies/-/workbox-strategies-3.4.1.tgz#96f7947a9611ea599fcb71d44a5abab503fbe288"
   dependencies:
-    workbox-core "^3.3.1"
+    workbox-core "^3.4.1"
 
-workbox-sw@^3.3.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/workbox-sw/-/workbox-sw-3.3.1.tgz#c18fb6546948b9da562da5b33e36fdf3e3dbcac1"
+workbox-streams@^3.4.1:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/workbox-streams/-/workbox-streams-3.4.1.tgz#b639843431ea38825909a557e54108fdc469f0eb"
+  dependencies:
+    workbox-core "^3.4.1"
 
-workbox-webpack-plugin@^3.3.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/workbox-webpack-plugin/-/workbox-webpack-plugin-3.3.1.tgz#9ff838a68fe533bef3d127aa956e6b6036e98361"
+workbox-sw@^3.4.1:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/workbox-sw/-/workbox-sw-3.4.1.tgz#7b51fc14c44b4e880c369f97681472cf6e117113"
+
+workbox-webpack-plugin@^3.4.1:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/workbox-webpack-plugin/-/workbox-webpack-plugin-3.4.1.tgz#e91a4ab1e427b7d46afb7c185e99ca172e306d26"
   dependencies:
     json-stable-stringify "^1.0.1"
-    workbox-build "^3.3.1"
+    workbox-build "^3.4.1"
 
 worker-farm@^1.5.2:
   version "1.6.0"
@@ -7736,7 +7830,7 @@ y18n@^3.2.1:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.1.tgz#6d15fba884c08679c0d77e88e7759e811e07fa41"
 
-y18n@^4.0.0:
+"y18n@^3.2.1 || ^4.0.0", y18n@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/y18n/-/y18n-4.0.0.tgz#95ef94f85ecc81d007c264e190a120f0a3c8566b"
 
@@ -7754,25 +7848,25 @@ yargs-parser@^10.0.0:
   dependencies:
     camelcase "^4.1.0"
 
+yargs-parser@^10.1.0:
+  version "10.1.0"
+  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-10.1.0.tgz#7202265b89f7e9e9f2e5765e0fe735a905edbaa8"
+  dependencies:
+    camelcase "^4.1.0"
+
 yargs-parser@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-5.0.0.tgz#275ecf0d7ffe05c77e64e7c86e4cd94bf0e1228a"
   dependencies:
     camelcase "^3.0.0"
 
-yargs-parser@^9.0.2:
-  version "9.0.2"
-  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-9.0.2.tgz#9ccf6a43460fe4ed40a9bb68f48d43b8a68cc077"
-  dependencies:
-    camelcase "^4.1.0"
-
-yargs@^11.1.0:
-  version "11.1.0"
-  resolved "https://registry.yarnpkg.com/yargs/-/yargs-11.1.0.tgz#90b869934ed6e871115ea2ff58b03f4724ed2d77"
+yargs@^12.0.1:
+  version "12.0.1"
+  resolved "https://registry.yarnpkg.com/yargs/-/yargs-12.0.1.tgz#6432e56123bb4e7c3562115401e98374060261c2"
   dependencies:
     cliui "^4.0.0"
-    decamelize "^1.1.1"
-    find-up "^2.1.0"
+    decamelize "^2.0.0"
+    find-up "^3.0.0"
     get-caller-file "^1.0.1"
     os-locale "^2.0.0"
     require-directory "^2.1.1"
@@ -7780,8 +7874,8 @@ yargs@^11.1.0:
     set-blocking "^2.0.0"
     string-width "^2.0.0"
     which-module "^2.0.0"
-    y18n "^3.2.1"
-    yargs-parser "^9.0.2"
+    y18n "^3.2.1 || ^4.0.0"
+    yargs-parser "^10.1.0"
 
 yargs@^7.0.0:
   version "7.1.0"
